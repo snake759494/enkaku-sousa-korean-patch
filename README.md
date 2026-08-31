@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.7)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지 211장을 한국어로 옮겼습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.7에서는 조사 화면의 고정 라벨과 시스템 메뉴를 보완했습니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean.xdelta Enkaku_Korean.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.7.xdelta Enkaku_Korean_v3.7.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,9 +44,10 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean.iso
+파일명   Enkaku_Korean_v3.7.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      e1ae1cdb39255e75eb52e82c7fb8f7e3
+MD5      a747eeea138b46b23fc74f4e606bdf56
+SHA-256  8d535ede4d60326a976e972aa5a14208ede84bcda9fcfe77fde69fb411600ab8
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
@@ -69,11 +70,14 @@ PPSSPP 및 실기(CFW) 모두에서 동작합니다. 별도 설정은 필요 없
 | 인물 관계 라벨 | 21장 |
 | 장소명 | 11장 |
 | 시스템 메시지 | 6장 |
+| 조사 화면 정적 라벨 | 24레코드 |
+| 선택지·정답 선택 | 178행 검수 |
 | 설정 화면·힌트 패널 | 2장 |
 | 명함 | 1장 |
 
 ### 아직 일본어로 남아 있는 것
 
+- **일부 `0001` 정적 라벨** (`裁判所` 등) — 판독이 확실하지 않은 4bpp 스트립은 덮어쓰지 않았습니다
 - **HUD 표시** (`拘束 N일째`, `メニュー`, `次へ`, 요일) — 여러 문자열이 한 텍스처에 조각으로 붙어 있고 조각 경계가 코드의 UV 좌표에 있어, 잘못 고치면 HUD 전체가 깨집니다
 - **신문 기사 2장** — 세로쓰기 밀집 텍스트
 - **인물 이름표 20여 장**
@@ -132,6 +136,8 @@ ANALYSIS.md      포맷 분석 기록 (한국어)
 | `work/texpack.py` · `work/texenc.py` | 텍스처 디코드/인코드 |
 | `work/font.py` · `work/build_korean_font.py` | 폰트 글리프 |
 | `work/build_runtime_refs.py` | 대사 확장 및 참조 재계산 |
+| `work/audit_choices.py` | 선택지·정답 선택의 일본어 잔존 및 매핑 감사 |
+| `work/patch_container_text.py` | `0001` 조사 화면 정적 라벨 패치 |
 | `work/rebuild_0000.py` | 아카이브 재빌드 |
 | `work/patch_iso_inplace.py` | ISO 제자리 패치 |
 
@@ -145,11 +151,16 @@ python work/build_runtime_refs.py --base build/stream1_ko_font_clean.bin \
     --slots build/korean_slots_full_clean.json \
     --out build/stream1_ko.bin --translation-is-final
 
-python work/rebuild_0000.py --plain0 build/stream0_ko.bin \
-    --plain1 build/stream1_ko.bin --chain 128 --out build/0000_ko
+python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
+    --plain0 build/stream0_v37.bin --plain1 build/stream1_ko_v35.bin \
+    --chain 64 --out build/0000_v37
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean.iso \
-    --replace /PSP_GAME/USRDIR/0000 build/0000_ko
+python work/patch_container_text.py --ledger work/container_ko.json \
+    --archive 0001 --out build/0001_v37
+
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.7.iso \
+    --replace /PSP_GAME/USRDIR/0000 build/0000_v37 \
+    --replace /PSP_GAME/USRDIR/0001 build/0001_v37
 ```
 
 ---
