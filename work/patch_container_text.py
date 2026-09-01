@@ -2,9 +2,10 @@
 
 Everything about the records is preserved: same tiles, same coordinates, same count, same
 lengths.  Only the pixels change, so the decompressed stream keeps its size and the archive
-keeps its layout.  Each block's header is an MD5 over the block's payload out to the next
-block boundary, so it is recomputed; the packed stream is padded back to its original length
-first, which keeps every later block exactly where it was.
+keeps its layout.  The original format uses two kinds of 16-byte block identifiers: some are
+an MD5 over the block's payload out to the next block boundary, while deduplicated blocks
+carry an opaque ``61 0d 0a`` marker.  Only the former are recomputed.  The packed stream is
+padded back to its original length first, which keeps every later block exactly where it was.
 
 The ledger names each picture by the block and record it lives in, and gives the boxes to
 clear and the Korean to draw in them.  Boxes are cleared to the colour that surrounds them --
@@ -125,14 +126,15 @@ def main() -> None:
         work.setdefault(int(item["block"], 16) if isinstance(item["block"], str)
                         else item["block"], []).append(item)
 
-    blob = bytearray((read_blocks.ROOT / args.archive).read_bytes())
+    original = (read_blocks.ROOT / args.archive).read_bytes()
+    blob = bytearray(original)
     shots, done = [], 0
+    header_modes = {"md5": 0, "opaque-preserved": 0}
     for at, items in sorted(work.items()):
         payload = bytes(blob[at + read_blocks.HEADER:])
         plain, _ = read_blocks.open_stream(payload)
         if plain is None:
             raise SystemExit(f"block {at:#x} does not hold an LZ11 stream")
-        packed_len = int.from_bytes(payload[1:4], "little")
         _, consumed = lzss.decompress(payload, 0, limit=64 << 20)
 
         for item in items:
@@ -151,14 +153,24 @@ def main() -> None:
         repacked = lz11_compress.compress(plain, max_chain=args.chain)
         if len(repacked) > consumed:
             raise SystemExit(f"block {at:#x}: repacked {len(repacked)} > original {consumed}")
-        # Pad back to the original packed length so nothing downstream moves, then redo the
-        # block's MD5 over the same span it covered before.
+        # Pad back to the original packed length so nothing downstream moves.  Do not assume
+        # every 16-byte prefix is an MD5: the original game uses an opaque marker for blocks
+        # that share a payload with another block.  Replacing that marker with an MD5 makes a
+        # valid-looking archive that the PSP's resource loader can no longer resolve.
         repacked = repacked + bytes(consumed - len(repacked))
         blob[at + read_blocks.HEADER:at + read_blocks.HEADER + consumed] = repacked
         span_end = ((at + read_blocks.HEADER + consumed + read_blocks.BLOCK - 1)
                     // read_blocks.BLOCK) * read_blocks.BLOCK
-        blob[at:at + 0x10] = hashlib.md5(
-            bytes(blob[at + read_blocks.HEADER:span_end])).digest()
+        original_header = original[at:at + 0x10]
+        original_digest = hashlib.md5(
+            original[at + read_blocks.HEADER:span_end]).digest()
+        if original_header == original_digest:
+            blob[at:at + 0x10] = hashlib.md5(
+                bytes(blob[at + read_blocks.HEADER:span_end])).digest()
+            header_modes["md5"] += 1
+        else:
+            blob[at:at + 0x10] = original_header
+            header_modes["opaque-preserved"] += 1
 
         check, _ = read_blocks.open_stream(bytes(blob[at + read_blocks.HEADER:]))
         if check != plain:
@@ -166,6 +178,8 @@ def main() -> None:
 
     args.out.write_bytes(bytes(blob))
     print(f"{done} pictures set in {len(work)} blocks -> {args.out}")
+    print(f"   block identifiers: {header_modes['md5']} MD5 recomputed, "
+          f"{header_modes['opaque-preserved']} opaque identifiers preserved")
     print(f"   archive {len(blob):,} bytes "
           f"({'same size' if len(blob) == (read_blocks.ROOT / args.archive).stat().st_size else 'SIZE CHANGED'})")
 

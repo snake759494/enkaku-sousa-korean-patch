@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.8)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.9)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.8에서는 시작 면책 문구까지 보완했습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.9에서는 실기에서 ISO를 읽을 때 필요한 중복 리소스 식별자를 보존하도록 보완했습니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.8.xdelta Enkaku_Korean_v3.8.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.9.xdelta Enkaku_Korean_v3.9.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,17 +44,17 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.8.iso
+파일명   Enkaku_Korean_v3.9.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      d397c81a06d57a94afafda35330b70bc
-SHA-256  c408ff0b1785565b191cc697ef7dbb49ee3abb84dac726978944dd4b70e0da8d
+MD5      5c21f1208351ed7e7cd8bd77e178a069
+SHA-256  849bc554e40e635b3d251c7c97c34cd55e53bb87e0de851a93e64da2d0b48396
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
 
 ### 실행
 
-PPSSPP 및 실기(CFW) 모두에서 동작합니다. 별도 설정은 필요 없습니다.
+PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. 별도 에뮬레이터 설정은 필요 없습니다.
 
 ---
 
@@ -116,7 +116,9 @@ PPSSPP 및 실기(CFW) 모두에서 동작합니다. 별도 설정은 필요 없
 
 ### 실기 호환
 
-아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. 아카이브가 원본과 같은 크기이므로 **원래 위치에 제자리 교체**하는 방식으로 되돌렸고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `PARAM.SFO`, `UMD_DATA.BIN`)은 일절 수정하지 않습니다.
+아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.9는 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `PARAM.SFO`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다.
+
+또한 v3.8에서 `0001`의 중복 리소스 블록 식별자까지 MD5로 다시 쓴 회귀를 수정했습니다. 원본이 MD5인 47개 블록만 새 내용에 맞춰 갱신하고, `61 0d 0a`로 시작하는 원본 opaque 식별자 12개는 바이트 그대로 보존합니다. `work/verify_hardware_iso.py`가 ISO9660 디렉터리/LBA, 부팅 파일, LZ11 스트림, 식별자 형식을 자동 검증합니다.
 
 ---
 
@@ -141,6 +143,7 @@ ANALYSIS.md      포맷 분석 기록 (한국어)
 | `work/patch_container_text.py` | `0001` 조사 화면 정적 라벨 패치 |
 | `work/rebuild_0000.py` | 아카이브 재빌드 |
 | `work/patch_iso_inplace.py` | ISO 제자리 패치 |
+| `work/verify_hardware_iso.py` | 실기 호환 ISO·아카이브 무결성 검증 |
 
 ### 직접 빌드하기
 
@@ -157,11 +160,14 @@ python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
     --chain 64 --out build/0000_v37
 
 python work/patch_container_text.py --ledger work/container_ko.json \
-    --archive 0001 --out build/0001_v38
+    --archive 0001 --out build/0001_v39 --chain 64
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.8.iso \
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.9.iso \
     --replace /PSP_GAME/USRDIR/0000 build/0000_v37 \
-    --replace /PSP_GAME/USRDIR/0001 build/0001_v38
+    --replace /PSP_GAME/USRDIR/0001 build/0001_v39
+
+python work/verify_hardware_iso.py --original "원본.iso" \
+    --patched Enkaku_Korean_v3.9.iso
 ```
 
 ---
