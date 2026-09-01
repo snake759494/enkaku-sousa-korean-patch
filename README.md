@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.7)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.8)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.7에서는 조사 화면의 고정 라벨과 시스템 메뉴를 보완했습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.8에서는 시작 면책 문구까지 보완했습니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.7.xdelta Enkaku_Korean_v3.7.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.8.xdelta Enkaku_Korean_v3.8.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,10 +44,10 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.7.iso
+파일명   Enkaku_Korean_v3.8.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      a747eeea138b46b23fc74f4e606bdf56
-SHA-256  8d535ede4d60326a976e972aa5a14208ede84bcda9fcfe77fde69fb411600ab8
+MD5      d397c81a06d57a94afafda35330b70bc
+SHA-256  c408ff0b1785565b191cc697ef7dbb49ee3abb84dac726978944dd4b70e0da8d
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
@@ -71,6 +71,7 @@ PPSSPP 및 실기(CFW) 모두에서 동작합니다. 별도 설정은 필요 없
 | 장소명 | 11장 |
 | 시스템 메시지 | 6장 |
 | 조사 화면 정적 라벨 | 24레코드 |
+| 시작 면책 문구 | 1장 |
 | 선택지·정답 선택 | 178행 검수 |
 | 설정 화면·힌트 패널 | 2장 |
 | 명함 | 1장 |
@@ -156,11 +157,11 @@ python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
     --chain 64 --out build/0000_v37
 
 python work/patch_container_text.py --ledger work/container_ko.json \
-    --archive 0001 --out build/0001_v37
+    --archive 0001 --out build/0001_v38
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.7.iso \
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.8.iso \
     --replace /PSP_GAME/USRDIR/0000 build/0000_v37 \
-    --replace /PSP_GAME/USRDIR/0001 build/0001_v37
+    --replace /PSP_GAME/USRDIR/0001 build/0001_v38
 ```
 
 ---
