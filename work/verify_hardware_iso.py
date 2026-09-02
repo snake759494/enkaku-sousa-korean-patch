@@ -16,6 +16,7 @@ from pathlib import Path
 
 import iso9660
 import lzss
+from patch_param_sfo_version import locate_system_version
 
 ROOT = Path(r"D:\psp\원격수사")
 BLOCK = 0x800
@@ -56,6 +57,23 @@ def compare_chunks(left: bytes, right: bytes, start: int, end: int,
         if left[at:min(at + chunk, end)] != right[at:min(at + chunk, end)]:
             return False
     return True
+
+
+def validate_param_sfo_version(original: bytes, patched: bytes,
+                               expected: str) -> None:
+    old_start, old_end, old_version = locate_system_version(original)
+    new_start, new_end, new_version = locate_system_version(patched)
+    assert_equal("PARAM.SFO PSP_SYSTEM_VER", new_version, expected)
+    assert_equal("PARAM.SFO system-version field location unchanged",
+                 (new_start, new_end), (old_start, old_end))
+    encoded = (expected + "\0").encode("ascii")
+    if len(encoded) != old_end - old_start:
+        raise SystemExit("FAIL PARAM.SFO replacement does not fit its field")
+    expected_payload = bytearray(original)
+    expected_payload[old_start:old_end] = encoded
+    assert_equal("PARAM.SFO only PSP_SYSTEM_VER changed",
+                 bytes(patched), bytes(expected_payload))
+    print(f"OK   PARAM.SFO firmware requirement {old_version} -> {new_version}")
 
 
 def read_stream(blob: bytes, offset: int) -> tuple[bytes, int]:
@@ -146,6 +164,8 @@ def main() -> None:
     parser.add_argument("--original", type=Path, required=True)
     parser.add_argument("--patched", type=Path, required=True)
     parser.add_argument("--ledger", type=Path, default=ROOT / "work" / "container_ko.json")
+    parser.add_argument("--system-version", default=None,
+                        help="allow PARAM.SFO PSP_SYSTEM_VER to change to this value")
     args = parser.parse_args()
 
     original = args.original.read_bytes()
@@ -163,10 +183,16 @@ def main() -> None:
         key = path.upper()
         if key not in old_records or key not in new_records:
             raise SystemExit(f"FAIL missing critical file {path}")
-        assert_equal(f"{path} unchanged", record_payload(patched, new_records[key]),
-                     record_payload(original, old_records[key]))
+        old_payload = record_payload(original, old_records[key])
+        new_payload = record_payload(patched, new_records[key])
+        if path == "/PSP_GAME/PARAM.SFO" and args.system_version is not None:
+            validate_param_sfo_version(old_payload, new_payload, args.system_version)
+        else:
+            assert_equal(f"{path} unchanged", new_payload, old_payload)
 
-    replace_paths = ("/PSP_GAME/USRDIR/0000", "/PSP_GAME/USRDIR/0001")
+    replace_paths = ["/PSP_GAME/USRDIR/0000", "/PSP_GAME/USRDIR/0001"]
+    if args.system_version is not None:
+        replace_paths.insert(0, "/PSP_GAME/PARAM.SFO")
     ranges = []
     for path in replace_paths:
         key = path.upper()
@@ -184,7 +210,7 @@ def main() -> None:
         cursor = end
     if not compare_chunks(original, patched, cursor, len(original)):
         raise SystemExit("FAIL bytes outside replacement records changed after the archives")
-    print("OK   only 0000/0001 replacement record ranges differ")
+    print("OK   only replacement record ranges differ: " + ", ".join(replace_paths))
 
     validate_0000(original, patched, old_records["/PSP_GAME/USRDIR/0000"])
     validate_0001(original, patched, old_records["/PSP_GAME/USRDIR/0001"], args.ledger)

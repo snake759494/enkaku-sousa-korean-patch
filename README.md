@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.10)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.11)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.10에서는 실기에서 ISO를 읽을 때 필요한 원본 아카이브 바이트와 중복 리소스 식별자를 보존하도록 보완했습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.11에서는 5.00 M33 계열 실기에서 게임 시작 전 요구 버전 검사를 통과하도록 보완했습니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.10.xdelta Enkaku_Korean_v3.10.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.11.xdelta Enkaku_Korean_v3.11.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,17 +44,17 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.10.iso
+파일명   Enkaku_Korean_v3.11.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      0749bf77b27385fe21f2692875c1d5f1
-SHA-256  beb3ffd1e9e11518863390b0fbd3ea86c1b7457785f6e829c6907bfb9bafda07
+MD5      2d76e887e025c287c12d8a34bf862c8c
+SHA-256  c635563ad3998edca2f5a1483f5b684002448ec4f14c6a61591b890b799ecfe7
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
 
 ### 실행
 
-PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. 별도 에뮬레이터 설정은 필요 없습니다.
+PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. **5.00 M33 계열 PSP-1000은 v3.11을 사용하십시오.** v3.11은 게임의 요구 버전 메타데이터만 `5.02`에서 `5.00`으로 낮춥니다. 5.00보다 낮은 펌웨어에서는 호환되는 CFW로 먼저 업데이트해야 합니다.
 
 ---
 
@@ -116,7 +116,7 @@ PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨�
 
 ### 실기 호환
 
-아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.10은 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `PARAM.SFO`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 이로써 실기 로더가 에뮬레이터보다 엄격하게 검사할 수 있는 영역의 불필요한 변경을 제거했습니다.
+아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.11은 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 또한 `PARAM.SFO`는 크기와 구조를 유지한 채 `PSP_SYSTEM_VER` 필드의 `5.02`를 `5.00`으로만 변경해 5.00 M33의 시작 전 버전 검사를 통과하도록 했습니다.
 
 또한 v3.8에서 `0001`의 중복 리소스 블록 식별자까지 MD5로 다시 쓴 회귀를 수정했습니다. 원본이 MD5인 47개 블록만 새 내용에 맞춰 갱신하고, `61 0d 0a`로 시작하는 원본 opaque 식별자 12개는 바이트 그대로 보존합니다. `work/verify_hardware_iso.py`가 ISO9660 디렉터리/LBA, 부팅 파일, LZ11 스트림, 식별자 형식을 자동 검증합니다.
 
@@ -142,6 +142,7 @@ ANALYSIS.md      포맷 분석 기록 (한국어)
 | `work/audit_choices.py` | 선택지·정답 선택의 일본어 잔존 및 매핑 감사 |
 | `work/patch_container_text.py` | `0001` 조사 화면 정적 라벨 패치 |
 | `work/rebuild_0000.py` | 아카이브 재빌드 |
+| `work/patch_param_sfo_version.py` | M33용 `PSP_SYSTEM_VER` 메타데이터 패치 |
 | `work/patch_iso_inplace.py` | ISO 제자리 패치 |
 | `work/verify_hardware_iso.py` | 실기 호환 ISO·아카이브 무결성 검증 |
 
@@ -162,12 +163,16 @@ python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
 python work/patch_container_text.py --ledger work/container_ko.json \
     --archive 0001 --out build/0001_v39 --chain 64
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.10.iso \
+python work/patch_param_sfo_version.py --src iso_extract/PSP_GAME/PARAM.SFO \
+    --out build/PARAM_SFO_v311 --from-version 5.02 --to-version 5.00
+
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.11.iso \
+    --replace /PSP_GAME/PARAM.SFO build/PARAM_SFO_v311 \
     --replace /PSP_GAME/USRDIR/0000 build/0000_v310 \
     --replace /PSP_GAME/USRDIR/0001 build/0001_v39
 
 python work/verify_hardware_iso.py --original "원본.iso" \
-    --patched Enkaku_Korean_v3.10.iso
+    --patched Enkaku_Korean_v3.11.iso --system-version 5.00
 ```
 
 ---
