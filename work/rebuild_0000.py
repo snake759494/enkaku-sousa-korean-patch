@@ -3,15 +3,16 @@
 Layout of this archive (it does not use the 0x40 MD5 block header the other archives
 have — both streams sit raw at 0x800-aligned offsets):
 
-    0x000000  LZ11 stream 0   (UI textures)      followed by zero padding
+    0x000000  LZ11 stream 0   (UI textures)      followed by an unused slot
     0x1B7000  SGXD sound bank                    left byte-for-byte alone
     0x27E000  LZ11 stream 1   (font + script)    followed by an unidentified blob
 
 The re-compressed streams are smaller than the originals, so everything keeps its
 original offset and the file keeps its original size — which means the ISO can be
-patched in place with no directory changes at all.  Anything not deliberately
-rewritten is copied through unchanged, including that trailing blob, whose purpose
-is still unknown.
+patched in place with no directory changes at all.  The rebuilt archive starts as
+an exact copy of the source and only the replacement stream payloads are written;
+this preserves all unused bytes between the new compressed streams and their original
+slot boundaries, as well as the trailing blob whose purpose is still unknown.
 """
 
 from __future__ import annotations
@@ -79,7 +80,12 @@ def main() -> None:
     if STREAM1 + len(new1) > tail_start:
         raise SystemExit("stream 1 no longer fits before the trailing blob")
 
-    out = bytearray(len(original))
+    # Start from the original rather than a zero-filled buffer.  The decoder stops
+    # at the compressed stream's own output size, so bytes after a shorter replacement
+    # are unused by the stream but still belong to the original fixed-size slot.  A
+    # real PSP loader can be stricter than an emulator about those bytes; preserving
+    # them removes an unnecessary format change.
+    out = bytearray(original)
     out[STREAM0 : STREAM0 + len(new0)] = new0
     out[SGXD_START:STREAM1] = original[SGXD_START:STREAM1]
     out[STREAM1 : STREAM1 + len(new1)] = new1
@@ -92,6 +98,12 @@ def main() -> None:
         "stream 0 decompresses identically": lzss.decompress(rebuilt, STREAM0)[0] == plain0,
         "stream 1 decompresses identically": lzss.decompress(rebuilt, STREAM1)[0] == plain1,
         "sound bank untouched": rebuilt[SGXD_START:STREAM1] == original[SGXD_START:STREAM1],
+        "stream 0 unused slot bytes preserved": (
+            rebuilt[STREAM0 + len(new0):SGXD_START]
+            == original[STREAM0 + len(new0):SGXD_START]),
+        "stream 1 unused slot bytes preserved": (
+            rebuilt[STREAM1 + len(new1):tail_start]
+            == original[STREAM1 + len(new1):tail_start]),
         "trailing blob untouched": rebuilt[tail_start:] == original[tail_start:],
     }
     print()

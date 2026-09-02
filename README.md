@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.9)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.10)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.9에서는 실기에서 ISO를 읽을 때 필요한 중복 리소스 식별자를 보존하도록 보완했습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.10에서는 실기에서 ISO를 읽을 때 필요한 원본 아카이브 바이트와 중복 리소스 식별자를 보존하도록 보완했습니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.9.xdelta Enkaku_Korean_v3.9.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.10.xdelta Enkaku_Korean_v3.10.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,10 +44,10 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.9.iso
+파일명   Enkaku_Korean_v3.10.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      5c21f1208351ed7e7cd8bd77e178a069
-SHA-256  849bc554e40e635b3d251c7c97c34cd55e53bb87e0de851a93e64da2d0b48396
+MD5      0749bf77b27385fe21f2692875c1d5f1
+SHA-256  beb3ffd1e9e11518863390b0fbd3ea86c1b7457785f6e829c6907bfb9bafda07
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
@@ -116,7 +116,7 @@ PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨�
 
 ### 실기 호환
 
-아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.9는 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `PARAM.SFO`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다.
+아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.10은 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `PARAM.SFO`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 이로써 실기 로더가 에뮬레이터보다 엄격하게 검사할 수 있는 영역의 불필요한 변경을 제거했습니다.
 
 또한 v3.8에서 `0001`의 중복 리소스 블록 식별자까지 MD5로 다시 쓴 회귀를 수정했습니다. 원본이 MD5인 47개 블록만 새 내용에 맞춰 갱신하고, `61 0d 0a`로 시작하는 원본 opaque 식별자 12개는 바이트 그대로 보존합니다. `work/verify_hardware_iso.py`가 ISO9660 디렉터리/LBA, 부팅 파일, LZ11 스트림, 식별자 형식을 자동 검증합니다.
 
@@ -157,17 +157,17 @@ python work/build_runtime_refs.py --base build/stream1_ko_font_clean.bin \
 
 python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
     --plain0 build/stream0_v37.bin --plain1 build/stream1_ko_v35.bin \
-    --chain 64 --out build/0000_v37
+    --chain 64 --out build/0000_v310
 
 python work/patch_container_text.py --ledger work/container_ko.json \
     --archive 0001 --out build/0001_v39 --chain 64
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.9.iso \
-    --replace /PSP_GAME/USRDIR/0000 build/0000_v37 \
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.10.iso \
+    --replace /PSP_GAME/USRDIR/0000 build/0000_v310 \
     --replace /PSP_GAME/USRDIR/0001 build/0001_v39
 
 python work/verify_hardware_iso.py --original "원본.iso" \
-    --patched Enkaku_Korean_v3.9.iso
+    --patched Enkaku_Korean_v3.10.iso
 ```
 
 ---

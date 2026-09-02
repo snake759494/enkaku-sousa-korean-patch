@@ -77,7 +77,13 @@ def validate_0000(original: bytes, patched: bytes,
         raise SystemExit("FAIL 0000 stream 1 grew beyond its original slot")
     assert_equal("0000 SGXD sound bank unchanged", new[SGXD_START:STREAM1],
                  old[SGXD_START:STREAM1])
+    assert_equal("0000 stream 0 unused slot bytes preserved",
+                 new[STREAM0 + new0_used:SGXD_START],
+                 old[STREAM0 + new0_used:SGXD_START])
     old_tail = STREAM1 + old1_used
+    assert_equal("0000 stream 1 unused slot bytes preserved",
+                 new[STREAM1 + new1_used:old_tail],
+                 old[STREAM1 + new1_used:old_tail])
     assert_equal("0000 trailing data unchanged", new[old_tail:], old[old_tail:])
     print(f"OK   0000 LZ11 streams valid (stream0 0x{old0_used:x}->0x{new0_used:x}, "
           f"stream1 0x{old1_used:x}->0x{new1_used:x}; "
