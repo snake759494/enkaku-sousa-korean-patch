@@ -12,8 +12,11 @@ not launched by this tool.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import struct
 from bisect import bisect_right
+from dataclasses import dataclass
 from pathlib import Path
 
 import build_patch
@@ -36,6 +39,109 @@ MANIFEST = ROOT / "build" / "ref_manifest.json"
 ARRAYS = ROOT / "build" / "pointer_arrays.json"
 OPCODE_TABLE = ROOT / "build" / "opcode_table.json"
 REFERENCE_CORRECTIONS = ROOT / "build" / "runtime_reference_supplement_cfg17.json"
+
+ALIGNMENT_HEADER_INDICES = tuple(range(8)) + (29, 30)
+ALIGNMENT_BYTES = 4
+
+
+@dataclass(frozen=True)
+class ZeroPaddingSpan:
+    """A zero-length source span that inserts bytes without replacing game data."""
+
+    text: int
+    text_end: int
+
+
+def load_alignment_targets(plain: bytes) -> list[tuple[str, int]]:
+    """Return the original 4-byte-aligned section and pointer-array locations.
+
+    The PSP interpreter loads the ten listed header destinations with MIPS ``lw`` and
+    also walks the pointer arrays discovered by ``scan_arrays.py`` as u32 tables.  The
+    original stream makes all of those destinations/array starts word-aligned.  A text
+    reflow can change their phase even when every pointer value has been remapped, so
+    they are explicit layout constraints for the rebuild.
+    """
+    targets: list[tuple[str, int]] = []
+    for index in ALIGNMENT_HEADER_INDICES:
+        value = struct.unpack_from("<I", plain, index * 4)[0]
+        if value % ALIGNMENT_BYTES == 0:
+            targets.append((f"header[{index}]", value))
+
+    if ARRAYS.exists():
+        arrays = json.loads(ARRAYS.read_text(encoding="utf-8")).get("arrays", [])
+        for start, _end in arrays:
+            start = int(start)
+            if start % ALIGNMENT_BYTES == 0:
+                targets.append((f"pointer_array[0x{start:06x}]", start))
+
+    # Multiple structural records may name the same location.  Keep one constraint
+    # while retaining every label in the report for auditability.
+    merged: dict[int, list[str]] = {}
+    for label, offset in targets:
+        if not (0 <= offset < len(plain)):
+            raise ValueError(f"alignment target outside stream: {label}=0x{offset:x}")
+        merged.setdefault(offset, []).append(label)
+    return [(" / ".join(labels), offset) for offset, labels in sorted(merged.items())]
+
+
+def add_alignment_padding(plain: bytes, spans: list, texts: list[bytes],
+                          targets: list[tuple[str, int]]) -> tuple[list, list, dict]:
+    """Insert the minimum zero padding needed to keep all alignment targets aligned.
+
+    Padding is inserted at the target's original source offset, so a pointer-array
+    start/section start moves as one unit and no existing bytes are overwritten.  The
+    ordinary reflow map then maps both the padding and all later data, allowing the
+    existing 33,371-reference rewrite to update every header, array entry, call, and
+    branch that crossed the insertion.
+    """
+    base_map = reflow.OffsetMap(len(plain), spans, texts)
+    text_ranges = [(span.text, span.text_end) for span in spans]
+    padding: list[tuple[int, int, list[str]]] = []
+    cumulative = 0
+    for label, source_offset in targets:
+        if any(start < source_offset < end for start, end in text_ranges):
+            raise ValueError(
+                f"cannot insert alignment padding inside translated text: "
+                f"{label}=0x{source_offset:x}"
+            )
+        current = base_map[source_offset] + cumulative
+        needed = (-current) % ALIGNMENT_BYTES
+        if not needed:
+            continue
+        padding.append((source_offset, needed, [label]))
+        cumulative += needed
+
+    # Build a stable merged input for reflow.  A zero-length span sorts before a
+    # translated span beginning at the same source offset, which makes that text start
+    # point to the bytes after the inserted pad.
+    padded_spans = list(spans)
+    padded_texts = list(texts)
+    for source_offset, size, _labels in padding:
+        padded_spans.append(ZeroPaddingSpan(source_offset, source_offset))
+        padded_texts.append(b"\0" * size)
+    order = sorted(
+        range(len(padded_spans)),
+        key=lambda index: (
+            padded_spans[index].text,
+            0 if padded_spans[index].text == padded_spans[index].text_end else 1,
+        ),
+    )
+    padded_spans = [padded_spans[index] for index in order]
+    padded_texts = [padded_texts[index] for index in order]
+
+    details = []
+    for source_offset, size, labels in padding:
+        details.append({
+            "source_offset": source_offset,
+            "bytes": size,
+            "labels": labels,
+        })
+    return padded_spans, padded_texts, {
+        "alignment": ALIGNMENT_BYTES,
+        "targets": len(targets),
+        "padding_spans": details,
+        "padding_bytes": cumulative,
+    }
 
 # These four short runs were admitted by the broad pointer-array scan because
 # their packed 16-bit fields happen to form in-range u32 values.  They are
@@ -633,6 +739,11 @@ def main() -> None:
         action="store_true",
         help="do not reapply older residual/semantic overrides to the supplied TSV",
     )
+    parser.add_argument(
+        "--no-align-4",
+        action="store_true",
+        help="disable the PSP runtime's 4-byte section/pointer-array alignment fix",
+    )
     args = parser.parse_args()
 
     original = ORIGINAL_STREAM.read_bytes()
@@ -683,7 +794,38 @@ def main() -> None:
     )
     if args.marker_only:
         spans, texts = marker_spans(base, spans, texts)
-    rebuilt, mapping = reflow.rebuild(base, spans, texts)
+    if args.no_align_4:
+        reflow_spans, reflow_texts = spans, texts
+        alignment_stats = {
+            "alignment": ALIGNMENT_BYTES,
+            "targets": 0,
+            "padding_spans": [],
+            "padding_bytes": 0,
+            "disabled": True,
+        }
+    else:
+        alignment_targets = load_alignment_targets(original)
+        reflow_spans, reflow_texts, alignment_stats = add_alignment_padding(
+            base, spans, texts, alignment_targets
+        )
+        alignment_stats["target_details"] = [
+            {"label": label, "source_offset": offset,
+             "mapped_offset": None}
+            for label, offset in alignment_targets
+        ]
+    rebuilt, mapping = reflow.rebuild(base, reflow_spans, reflow_texts)
+    if not args.no_align_4:
+        for detail in alignment_stats["target_details"]:
+            detail["mapped_offset"] = mapping[detail["source_offset"]]
+        alignment_stats["aligned_targets"] = sum(
+            detail["mapped_offset"] % ALIGNMENT_BYTES == 0
+            for detail in alignment_stats["target_details"]
+        )
+        if alignment_stats["aligned_targets"] != alignment_stats["targets"]:
+            raise SystemExit(
+                "alignment verification failed: "
+                f"{alignment_stats['aligned_targets']}/{alignment_stats['targets']}"
+            )
     written, skipped = reflow.remap(rebuilt, refs, mapping, len(base))
     if skipped:
         raise SystemExit(f"unexpected references outside stream: {skipped}")
@@ -707,13 +849,14 @@ def main() -> None:
     output = bytes(rebuilt)
     output_blocks = text_blocks.find_blocks(output)
     report = {
-        "schema": "enkaku-sousa-runtime-reference-candidate/v1",
+        "schema": "enkaku-sousa-runtime-reference-candidate/v2",
         "source": str(args.base),
         "translation": str(args.tsv),
         "slots": str(args.slots),
         "output": str(args.out),
         "original_size": len(base),
         "output_size": len(output),
+        "output_sha256": hashlib.sha256(output).hexdigest(),
         "text": {
             "rows": text_stats["rows"],
             "usable_spans": len(spans),
@@ -724,6 +867,7 @@ def main() -> None:
         },
         "collection": collect_stats,
         "references": ref_stats | {"written": written},
+        "alignment": alignment_stats,
         "output_structure": {
             "detectable_blocks": len(output_blocks),
             "expected_detectable_blocks": len(text_blocks.find_blocks(original)),

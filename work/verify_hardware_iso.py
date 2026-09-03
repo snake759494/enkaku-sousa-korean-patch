@@ -17,6 +17,7 @@ from pathlib import Path
 import iso9660
 import lzss
 from patch_param_sfo_version import locate_system_version
+from verify_runtime_alignment import verify_alignment
 
 ROOT = Path(r"D:\psp\원격수사")
 BLOCK = 0x800
@@ -81,7 +82,8 @@ def read_stream(blob: bytes, offset: int) -> tuple[bytes, int]:
 
 
 def validate_0000(original: bytes, patched: bytes,
-                  record: iso9660.DirectoryRecord) -> None:
+                  record: iso9660.DirectoryRecord,
+                  runtime_report: Path | None = None) -> None:
     old = record_payload(original, record)
     new = record_payload(patched, record)
     old0, old0_used = read_stream(old, STREAM0)
@@ -106,6 +108,13 @@ def validate_0000(original: bytes, patched: bytes,
     print(f"OK   0000 LZ11 streams valid (stream0 0x{old0_used:x}->0x{new0_used:x}, "
           f"stream1 0x{old1_used:x}->0x{new1_used:x}; "
           f"plain1 {len(old1):,}->{len(new1):,} bytes)")
+    if runtime_report is not None:
+        verify_alignment(
+            old1,
+            new1,
+            json.loads(runtime_report.read_text(encoding="utf-8")),
+            ROOT / "build" / "pointer_arrays.json",
+        )
 
 
 def validate_0001(original: bytes, patched: bytes,
@@ -166,6 +175,8 @@ def main() -> None:
     parser.add_argument("--ledger", type=Path, default=ROOT / "work" / "container_ko.json")
     parser.add_argument("--system-version", default=None,
                         help="allow PARAM.SFO PSP_SYSTEM_VER to change to this value")
+    parser.add_argument("--runtime-report", type=Path, default=None,
+                        help="runtime reference/alignment report for the patched stream")
     args = parser.parse_args()
 
     original = args.original.read_bytes()
@@ -212,7 +223,8 @@ def main() -> None:
         raise SystemExit("FAIL bytes outside replacement records changed after the archives")
     print("OK   only replacement record ranges differ: " + ", ".join(replace_paths))
 
-    validate_0000(original, patched, old_records["/PSP_GAME/USRDIR/0000"])
+    validate_0000(original, patched, old_records["/PSP_GAME/USRDIR/0000"],
+                  args.runtime_report)
     validate_0001(original, patched, old_records["/PSP_GAME/USRDIR/0001"], args.ledger)
     print("\nHardware-format validation passed (physical PSP test still required for final device confirmation).")
 
