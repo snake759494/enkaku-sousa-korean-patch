@@ -25,3 +25,8 @@ font_extract/translation_overrides.json
 *.xdelta
 
 dump/
+
+# game-derived build outputs (archives, SFO) never go in
+build/0000_*
+build/0001_*
+build/PARAM_SFO_*
