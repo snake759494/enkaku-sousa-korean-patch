@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.12)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.13)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.12에서는 PSP 실기·Vita Adrenaline에서 발생하던 부팅 직후 오류를 유발하는 스트림 정렬 문제를 보완했습니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.13은 v3.8~v3.12에서 게임 안에서 깨져 보이던 4bpp 이미지 25장(시작 면책 문구, 조사 화면 장소 라벨)을 원본으로 되돌린 최종본입니다. v3.12의 실기 부팅 보정(스트림 4바이트 정렬, `PARAM.SFO` 5.00)은 그대로 포함합니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.12.xdelta Enkaku_Korean_v3.12.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.13.xdelta Enkaku_Korean_v3.13.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,17 +44,17 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.12.iso
+파일명   Enkaku_Korean_v3.13.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      4105d3d7d2ec936fb332a9a7c9ce2cbb
-SHA-256  c5179cb32bf7698b28d905f21522f9eeaf202157c639b0e0701d98ac55dd1b17
+MD5      3da843ed044fab5d81966980f3208e02
+SHA-256  b37c1451d2ab0a664774551ba20fb591e46879bb287f55890770224678c34f41
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
 
 ### 실행
 
-PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. **PSP-1000/3000 PRO-C와 Vita Adrenaline은 v3.12를 사용하십시오.** v3.12는 게임의 요구 버전 메타데이터를 `5.02`에서 `5.00`으로 낮추고, 확장된 스크립트의 런타임 포인터 정렬도 보정합니다. 5.00보다 낮은 펌웨어에서는 호환되는 CFW로 먼저 업데이트해야 합니다.
+PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. **PSP-1000/3000 PRO-C와 Vita Adrenaline은 v3.13을 사용하십시오.** v3.13은 게임의 요구 버전 메타데이터를 `5.02`에서 `5.00`으로 낮추고, 확장된 스크립트의 런타임 포인터 정렬도 보정합니다. 5.00보다 낮은 펌웨어에서는 호환되는 CFW로 먼저 업데이트해야 합니다.
 
 ---
 
@@ -70,15 +70,14 @@ PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨�
 | 인물 관계 라벨 | 21장 |
 | 장소명 | 11장 |
 | 시스템 메시지 | 6장 |
-| 조사 화면 정적 라벨 | 24레코드 |
-| 시작 면책 문구 | 1장 |
 | 선택지·정답 선택 | 178행 검수 |
+| 튜토리얼·장면 배너·시작 안내 | 34장 |
 | 설정 화면·힌트 패널 | 2장 |
 | 명함 | 1장 |
 
 ### 아직 일본어로 남아 있는 것
 
-- **일부 `0001` 정적 라벨** (`裁判所` 등) — 판독이 확실하지 않은 4bpp 스트립은 덮어쓰지 않았습니다
+- **시작 면책 문구와 조사 화면 장소 라벨 24장** — `0001`의 4bpp 레코드입니다. 픽셀 배치가 확정되지 않아 v3.8~v3.12에서 쓴 결과가 게임 안에서 깨져 보였고, v3.13에서 원본으로 되돌렸습니다
 - **HUD 표시** (`拘束 N일째`, `メニュー`, `次へ`, 요일) — 여러 문자열이 한 텍스처에 조각으로 붙어 있고 조각 경계가 코드의 UV 좌표에 있어, 잘못 고치면 HUD 전체가 깨집니다
 - **신문 기사 2장** — 세로쓰기 밀집 텍스트
 - **인물 이름표 20여 장**
@@ -116,9 +115,9 @@ PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨�
 
 ### 실기 호환
 
-아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.12는 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 또한 `PARAM.SFO`는 크기와 구조를 유지한 채 `PSP_SYSTEM_VER` 필드의 `5.02`를 `5.00`으로만 변경합니다.
+아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.13은 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 또한 `PARAM.SFO`는 크기와 구조를 유지한 채 `PSP_SYSTEM_VER` 필드의 `5.02`를 `5.00`으로만 변경합니다.
 
-이번 부팅 오류의 원인은 대사를 확장한 뒤 스트림의 일부 섹션 목적지와 포인터 배열 시작 위치가 4바이트 경계에서 벗어난 것이었습니다. MIPS 실기의 `lw`는 비정렬 주소에서 예외를 내지만 PPSSPP에서는 같은 문제가 드러나지 않을 수 있습니다. `build_runtime_refs.py`는 원본에서 정렬되어 있던 헤더 목적지 10곳과 포인터 배열 시작 33곳을 제약으로 삼아 필요한 위치에만 0 패딩을 삽입하고, 전체 33,371개 참조를 같은 오프셋 맵으로 다시 씁니다. v3.12는 43/43 대상 정렬과 10/10 헤더 목적지 검증을 통과했습니다.
+이번 부팅 오류의 원인은 대사를 확장한 뒤 스트림의 일부 섹션 목적지와 포인터 배열 시작 위치가 4바이트 경계에서 벗어난 것이었습니다. MIPS 실기의 `lw`는 비정렬 주소에서 예외를 내지만 PPSSPP에서는 같은 문제가 드러나지 않을 수 있습니다. `build_runtime_refs.py`는 원본에서 정렬되어 있던 헤더 목적지 10곳과 포인터 배열 시작 33곳을 제약으로 삼아 필요한 위치에만 0 패딩을 삽입하고, 전체 33,371개 참조를 같은 오프셋 맵으로 다시 씁니다. v3.12 이후 43/43 대상 정렬과 10/10 헤더 목적지 검증을 통과합니다.
 
 또한 v3.8에서 `0001`의 중복 리소스 블록 식별자까지 MD5로 다시 쓴 회귀를 수정했습니다. 원본이 MD5인 47개 블록만 새 내용에 맞춰 갱신하고, `61 0d 0a`로 시작하는 원본 opaque 식별자 12개는 바이트 그대로 보존합니다. `work/verify_hardware_iso.py`가 ISO9660 디렉터리/LBA, 부팅 파일, LZ11 스트림, 식별자 형식을 자동 검증합니다.
 
@@ -166,15 +165,15 @@ python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
     --chain 64 --out build/0000_v312
 
 python work/patch_container_text.py --ledger work/container_ko.json \
-    --archive 0001 --out build/0001_v39 --chain 64
+    --archive 0001 --out build/0001_v313 --chain 64
 
 python work/patch_param_sfo_version.py --src iso_extract/PSP_GAME/PARAM.SFO \
     --out build/PARAM_SFO_v312 --from-version 5.02 --to-version 5.00
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.12.iso \
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.13.iso \
     --replace /PSP_GAME/PARAM.SFO build/PARAM_SFO_v312 \
     --replace /PSP_GAME/USRDIR/0000 build/0000_v312 \
-    --replace /PSP_GAME/USRDIR/0001 build/0001_v39
+    --replace /PSP_GAME/USRDIR/0001 build/0001_v313
 
 python work/verify_runtime_alignment.py \
     --original font_extract/script_stream.bin \
@@ -182,7 +181,7 @@ python work/verify_runtime_alignment.py \
     --report build/runtime_v312_report.json
 
 python work/verify_hardware_iso.py --original "원본.iso" \
-    --patched Enkaku_Korean_v3.12.iso --system-version 5.00 \
+    --patched Enkaku_Korean_v3.13.iso --system-version 5.00 \
     --runtime-report build/runtime_v312_report.json
 ```
 
