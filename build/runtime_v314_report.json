@@ -1,0 +1,557 @@
+{
+  "schema": "enkaku-sousa-runtime-reference-candidate/v2",
+  "source": "build\\stream1_ko_retranslated_v2_font.bin",
+  "translation": "build\\translation_ko_v7_final.tsv",
+  "slots": "build\\korean_slots_retranslated_v2.json",
+  "output": "build\\stream1_ko_v314.bin",
+  "original_size": 1509923,
+  "output_size": 1667091,
+  "output_sha256": "f9a0e345ff1b54b72aa8550c8730a2b015449632b13b1079c8642c9f3712fd9e",
+  "text": {
+    "rows": 9626,
+    "usable_spans": 9626,
+    "failed": 0,
+    "overlap": 0,
+    "old_bytes": 449595,
+    "new_bytes": 606760
+  },
+  "collection": {
+    "blocks_used_for_boundary_scan": 8822,
+    "runtime_text_sentinel_bytes": 39842,
+    "runtime_text_boundary_before_extractor_close": 277,
+    "cfg_seed_targets": 2069,
+    "cfg_boundaries": 162295,
+    "cfg_invalid_positions": 17,
+    "cfg_invalid_position_examples": [
+      [
+        1482738,
+        4
+      ],
+      [
+        1482662,
+        3
+      ],
+      [
+        1482644,
+        3
+      ],
+      [
+        1481806,
+        12
+      ],
+      [
+        310032,
+        74
+      ],
+      [
+        309008,
+        21
+      ],
+      [
+        644611,
+        9
+      ],
+      [
+        504837,
+        14
+      ],
+      [
+        1053203,
+        129
+      ],
+      [
+        520005,
+        14
+      ],
+      [
+        577327,
+        14
+      ],
+      [
+        502507,
+        14
+      ]
+    ],
+    "cfg_target_edges": 31974,
+    "cfg_invalid_targets": 8,
+    "candidates_by_opcode": {
+      "01": 26432,
+      "0a": 1429,
+      "0b": 0,
+      "0c": 3618,
+      "0d": 495
+    },
+    "selected_by_opcode": {
+      "01": 26424,
+      "0a": 1429,
+      "0b": 0,
+      "0c": 3618,
+      "0d": 495
+    },
+    "selected_runtime_refs": 31966,
+    "emulator_launched": false,
+    "typed_seed_rounds": 1,
+    "typed_seed_refs_added": 499,
+    "typed_pointer_candidates": 874
+  },
+  "references": {
+    "manifest_header": 11,
+    "manifest_inline": 24177,
+    "manifest_inline_kept": 24146,
+    "manifest_inline_dropped_inside_cfg_instruction": 10,
+    "manifest_inline_dropped_examples": [
+      [
+        440522,
+        256016,
+        440520,
+        12
+      ],
+      [
+        786649,
+        1441804,
+        786608,
+        12
+      ],
+      [
+        845839,
+        1441792,
+        845836,
+        14
+      ],
+      [
+        1002939,
+        1441792,
+        1002936,
+        14
+      ],
+      [
+        1035041,
+        1441792,
+        1035038,
+        14
+      ],
+      [
+        1302013,
+        1442005,
+        1302003,
+        3
+      ],
+      [
+        1399060,
+        1048576,
+        1399053,
+        12
+      ],
+      [
+        1441869,
+        786454,
+        1441866,
+        10
+      ],
+      [
+        1441902,
+        786454,
+        1441899,
+        10
+      ],
+      [
+        1441955,
+        786454,
+        1441952,
+        10
+      ]
+    ],
+    "manifest_inline_dropped_invalid_target": 21,
+    "manifest_inline_dropped_invalid_target_examples": [
+      [
+        231470,
+        1441924,
+        254
+      ],
+      [
+        923323,
+        1053203,
+        129
+      ],
+      [
+        945498,
+        1053203,
+        129
+      ],
+      [
+        980939,
+        1053203,
+        129
+      ],
+      [
+        986182,
+        1053203,
+        129
+      ],
+      [
+        996000,
+        1053203,
+        129
+      ],
+      [
+        1052143,
+        1053203,
+        129
+      ],
+      [
+        1094267,
+        1053203,
+        129
+      ],
+      [
+        1097834,
+        1053203,
+        129
+      ],
+      [
+        1131663,
+        1053203,
+        129
+      ],
+      [
+        1159702,
+        1053203,
+        129
+      ],
+      [
+        1167447,
+        309008,
+        21
+      ]
+    ],
+    "manifest_or_structural_refs_excluded": 3,
+    "supplemental_refs_added": 194,
+    "supplemental_refs_already_present": 0,
+    "excluded_ref_addresses": 3,
+    "pointer_array_refs_added": 245,
+    "runtime_refs_added": 8783,
+    "runtime_manifest_overrides": 0,
+    "runtime_manifest_override_examples": [],
+    "runtime_overlap_rejected": 0,
+    "runtime_overlap_rejected_examples": [],
+    "font_table_range": [
+      128,
+      175232
+    ],
+    "font_table_refs_rejected": 74,
+    "font_table_refs_rejected_examples": [
+      [
+        388,
+        212992,
+        "pointer_array"
+      ],
+      [
+        904,
+        357120,
+        "pointer_array"
+      ],
+      [
+        1664,
+        352256,
+        "pointer_array"
+      ],
+      [
+        6272,
+        286720,
+        "pointer_array"
+      ],
+      [
+        7555,
+        286720,
+        "pointer_array"
+      ],
+      [
+        8284,
+        212992,
+        "pointer_array"
+      ],
+      [
+        8540,
+        212992,
+        "pointer_array"
+      ],
+      [
+        13352,
+        199824,
+        "pointer_array"
+      ],
+      [
+        13356,
+        823296,
+        "pointer_array"
+      ],
+      [
+        19033,
+        353283,
+        "pointer_array"
+      ],
+      [
+        20616,
+        348160,
+        "pointer_array"
+      ],
+      [
+        20866,
+        212992,
+        "pointer_array"
+      ]
+    ],
+    "duplicate_or_conflicting_runtime_refs": [],
+    "total_refs": 33376,
+    "reference_corrections": "D:\\psp\\원격수사\\build\\runtime_reference_supplement_cfg17.json",
+    "supplemental_refs_requested": 194,
+    "excluded_ref_addresses_requested": 3,
+    "correction_basis": "user-tested CFG17 stream versus same-text current-manifest rebuild",
+    "typed_pointer_refs_added": 874,
+    "written": 33376
+  },
+  "alignment": {
+    "alignment": 4,
+    "targets": 43,
+    "padding_spans": [
+      {
+        "source_offset": 225340,
+        "bytes": 2,
+        "labels": [
+          "pointer_array[0x03703c]"
+        ]
+      },
+      {
+        "source_offset": 1509908,
+        "bytes": 1,
+        "labels": [
+          "header[29]"
+        ]
+      }
+    ],
+    "padding_bytes": 3,
+    "target_details": [
+      {
+        "label": "pointer_array[0x000184]",
+        "source_offset": 388,
+        "mapped_offset": 388
+      },
+      {
+        "label": "pointer_array[0x000384]",
+        "source_offset": 900,
+        "mapped_offset": 900
+      },
+      {
+        "label": "pointer_array[0x000654]",
+        "source_offset": 1620,
+        "mapped_offset": 1620
+      },
+      {
+        "label": "pointer_array[0x00185c]",
+        "source_offset": 6236,
+        "mapped_offset": 6236
+      },
+      {
+        "label": "pointer_array[0x00205c]",
+        "source_offset": 8284,
+        "mapped_offset": 8284
+      },
+      {
+        "label": "pointer_array[0x00215c]",
+        "source_offset": 8540,
+        "mapped_offset": 8540
+      },
+      {
+        "label": "pointer_array[0x003428]",
+        "source_offset": 13352,
+        "mapped_offset": 13352
+      },
+      {
+        "label": "pointer_array[0x005058]",
+        "source_offset": 20568,
+        "mapped_offset": 20568
+      },
+      {
+        "label": "pointer_array[0x005c60]",
+        "source_offset": 23648,
+        "mapped_offset": 23648
+      },
+      {
+        "label": "pointer_array[0x00765c]",
+        "source_offset": 30300,
+        "mapped_offset": 30300
+      },
+      {
+        "label": "pointer_array[0x007d5c]",
+        "source_offset": 32092,
+        "mapped_offset": 32092
+      },
+      {
+        "label": "pointer_array[0x009c60]",
+        "source_offset": 40032,
+        "mapped_offset": 40032
+      },
+      {
+        "label": "pointer_array[0x009f60]",
+        "source_offset": 40800,
+        "mapped_offset": 40800
+      },
+      {
+        "label": "pointer_array[0x00c05c]",
+        "source_offset": 49244,
+        "mapped_offset": 49244
+      },
+      {
+        "label": "pointer_array[0x00c15c]",
+        "source_offset": 49500,
+        "mapped_offset": 49500
+      },
+      {
+        "label": "pointer_array[0x012160]",
+        "source_offset": 74080,
+        "mapped_offset": 74080
+      },
+      {
+        "label": "pointer_array[0x012360]",
+        "source_offset": 74592,
+        "mapped_offset": 74592
+      },
+      {
+        "label": "pointer_array[0x012e60]",
+        "source_offset": 77408,
+        "mapped_offset": 77408
+      },
+      {
+        "label": "pointer_array[0x01345c]",
+        "source_offset": 78940,
+        "mapped_offset": 78940
+      },
+      {
+        "label": "pointer_array[0x01594c]",
+        "source_offset": 88396,
+        "mapped_offset": 88396
+      },
+      {
+        "label": "pointer_array[0x01ec5c]",
+        "source_offset": 126044,
+        "mapped_offset": 126044
+      },
+      {
+        "label": "pointer_array[0x01fc5c]",
+        "source_offset": 130140,
+        "mapped_offset": 130140
+      },
+      {
+        "label": "pointer_array[0x020b54]",
+        "source_offset": 133972,
+        "mapped_offset": 133972
+      },
+      {
+        "label": "pointer_array[0x021d5c]",
+        "source_offset": 138588,
+        "mapped_offset": 138588
+      },
+      {
+        "label": "pointer_array[0x022458]",
+        "source_offset": 140376,
+        "mapped_offset": 140376
+      },
+      {
+        "label": "pointer_array[0x023860]",
+        "source_offset": 145504,
+        "mapped_offset": 145504
+      },
+      {
+        "label": "pointer_array[0x02685c]",
+        "source_offset": 157788,
+        "mapped_offset": 157788
+      },
+      {
+        "label": "pointer_array[0x03703c]",
+        "source_offset": 225340,
+        "mapped_offset": 225460
+      },
+      {
+        "label": "header[0]",
+        "source_offset": 225344,
+        "mapped_offset": 225464
+      },
+      {
+        "label": "header[1]",
+        "source_offset": 225376,
+        "mapped_offset": 225496
+      },
+      {
+        "label": "pointer_array[0x037d24]",
+        "source_offset": 228644,
+        "mapped_offset": 228764
+      },
+      {
+        "label": "pointer_array[0x073804]",
+        "source_offset": 473092,
+        "mapped_offset": 510500
+      },
+      {
+        "label": "pointer_array[0x169a68]",
+        "source_offset": 1481320,
+        "mapped_offset": 1638160
+      },
+      {
+        "label": "header[2]",
+        "source_offset": 1481328,
+        "mapped_offset": 1638168
+      },
+      {
+        "label": "header[3]",
+        "source_offset": 1481444,
+        "mapped_offset": 1638284
+      },
+      {
+        "label": "header[4]",
+        "source_offset": 1481804,
+        "mapped_offset": 1638644
+      },
+      {
+        "label": "header[5]",
+        "source_offset": 1481892,
+        "mapped_offset": 1638732
+      },
+      {
+        "label": "header[6]",
+        "source_offset": 1481996,
+        "mapped_offset": 1638836
+      },
+      {
+        "label": "header[7]",
+        "source_offset": 1482112,
+        "mapped_offset": 1638952
+      },
+      {
+        "label": "header[30]",
+        "source_offset": 1503160,
+        "mapped_offset": 1660276
+      },
+      {
+        "label": "pointer_array[0x16fc24]",
+        "source_offset": 1506340,
+        "mapped_offset": 1663456
+      },
+      {
+        "label": "pointer_array[0x16fd5c]",
+        "source_offset": 1506652,
+        "mapped_offset": 1663768
+      },
+      {
+        "label": "header[29]",
+        "source_offset": 1509908,
+        "mapped_offset": 1667076
+      }
+    ],
+    "aligned_targets": 43
+  },
+  "output_structure": {
+    "detectable_blocks": 8822,
+    "expected_detectable_blocks": 8822
+  },
+  "emulator_launched": false
+}

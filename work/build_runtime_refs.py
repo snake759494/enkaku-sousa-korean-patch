@@ -466,9 +466,16 @@ def parse_cfg_instruction(stream: bytes, flags: bytearray,
     return end, "other", []
 
 
-def collect_runtime_refs(stream: bytes, flags: bytearray
+def collect_runtime_refs(stream: bytes, flags: bytearray,
+                         extra_seeds: set[int] | None = None,
                          ) -> tuple[list[tuple[int, int]], dict, dict[int, tuple]]:
-    """Collect references from actual interpreter boundaries, including opcode 01."""
+    """Collect references from actual interpreter boundaries, including opcode 01.
+
+    ``extra_seeds`` are additional entry points.  Code reached only through a typed
+    ``15`` pointer (for example the branch block that follows an investigation
+    scene's hotspot label strings) has no jump edge leading to it, so a walk seeded
+    from headers and arrays alone never sees it and its branch operands stay stale.
+    """
     blocks = text_blocks.find_blocks(stream)
     marker_end = runtime_marker_ends(stream, blocks)
     dispatch = dispatch_opcodes()
@@ -480,6 +487,9 @@ def collect_runtime_refs(stream: bytes, flags: bytearray
     array_refs = load_pointer_array_refs()
     seeds = {0x3764B}
     for _, target in header + inline + array_refs:
+        if SCRIPT_START <= target < len(stream):
+            seeds.add(target)
+    for target in extra_seeds or ():
         if SCRIPT_START <= target < len(stream):
             seeds.add(target)
 
@@ -740,6 +750,11 @@ def main() -> None:
         help="do not reapply older residual/semantic overrides to the supplied TSV",
     )
     parser.add_argument(
+        "--no-seed-typed-pointers",
+        action="store_true",
+        help="do not seed the CFG walk from typed 15 pointer targets (pre-v3.14 behaviour)",
+    )
+    parser.add_argument(
         "--no-align-4",
         action="store_true",
         help="disable the PSP runtime's 4-byte section/pointer-array alignment fix",
@@ -775,6 +790,27 @@ def main() -> None:
 
     runtime, collect_stats, cfg_records = collect_runtime_refs(original, text_flags)
     typed_runtime = collect_typed_pointer_refs(original, text_flags, cfg_records)
+    typed_seed_rounds = 0
+    typed_seed_refs_added = 0
+    if not args.no_seed_typed_pointers:
+        # A typed 15 pointer can be the only way into a code block (issue #1: the
+        # Light Blue investigation scene).  Re-walk from those targets until the
+        # reference set stops growing; the walk itself still validates every edge.
+        seeds: set[int] = set()
+        while True:
+            new_seeds = {target for _, target in typed_runtime
+                         if not text_flags[target] and target not in seeds}
+            if not new_seeds:
+                break
+            seeds |= new_seeds
+            typed_seed_rounds += 1
+            before = len(runtime)
+            runtime, collect_stats, cfg_records = collect_runtime_refs(
+                original, text_flags, seeds)
+            typed_seed_refs_added += len(runtime) - before
+            typed_runtime = collect_typed_pointer_refs(original, text_flags, cfg_records)
+    collect_stats["typed_seed_rounds"] = typed_seed_rounds
+    collect_stats["typed_seed_refs_added"] = typed_seed_refs_added
     collect_stats["typed_pointer_candidates"] = len(typed_runtime)
     supplemental, excluded, correction_stats = load_reference_corrections(
         args.reference_corrections
