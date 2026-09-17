@@ -190,7 +190,9 @@ def main() -> None:
             font, b = fit(draw, label["ko"], font_path, box,
                           entry.get("max_size", box[3] - box[1] + 1))
             if label.get("align") == "left":
-                x = x0 - b[0]
+                # ``pad`` keeps a left margin inside a UV window that starts at the
+                # texture's own edge (the system menu items begin at x=0/1).
+                x = x0 + label.get("pad", 0) - b[0]
             else:
                 x = x0 + (width - (b[2] - b[0])) / 2 - b[0]
             y = y0 + (height - (b[3] - b[1])) / 2 - b[1]
