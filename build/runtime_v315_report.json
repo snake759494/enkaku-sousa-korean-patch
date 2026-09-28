@@ -1,12 +1,12 @@
 {
   "schema": "enkaku-sousa-runtime-reference-candidate/v2",
   "source": "build\\stream1_ko_retranslated_v2_font.bin",
-  "translation": "build\\translation_ko_v7_final.tsv",
+  "translation": "build\\translation_ko_v9.tsv",
   "slots": "build\\korean_slots_retranslated_v2.json",
-  "output": "build\\stream1_ko_v314.bin",
+  "output": "build\\stream1_ko_v315.bin",
   "original_size": 1509923,
   "output_size": 1667091,
-  "output_sha256": "f9a0e345ff1b54b72aa8550c8730a2b015449632b13b1079c8642c9f3712fd9e",
+  "output_sha256": "7d954fc9a4ab2f96a99995ce78f2aae3453c82fb4eabb54c41d727d52e2a88e3",
   "text": {
     "rows": 9626,
     "usable_spans": 9626,

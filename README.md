@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.13)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.15)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.13은 v3.8~v3.12에서 게임 안에서 깨져 보이던 4bpp 이미지 25장(시작 면책 문구, 조사 화면 장소 라벨)을 원본으로 되돌린 최종본입니다. v3.12의 실기 부팅 보정(스트림 4바이트 정렬, `PARAM.SFO` 5.00)은 그대로 포함합니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.15는 라이트 블루 탐문 진입 시 멈춤(이슈 #1), 시스템 메뉴 글자 잘림(이슈 #2), 긴 대사가 아래 버튼 바를 덮는 문제(이슈 #3)를 고친 판입니다. v3.13의 세이브를 그대로 이어서 쓸 수 있습니다. v3.12의 실기 부팅 보정(스트림 4바이트 정렬, `PARAM.SFO` 5.00)과 v3.13의 4bpp 이미지 원복은 그대로 포함합니다.
 
 ---
 
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.13.xdelta Enkaku_Korean_v3.13.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.15.xdelta Enkaku_Korean_v3.15.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,17 +44,17 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.13.iso
+파일명   Enkaku_Korean_v3.15.iso
 크기     739,835,904 바이트 (원본과 동일)
-MD5      3da843ed044fab5d81966980f3208e02
-SHA-256  b37c1451d2ab0a664774551ba20fb591e46879bb287f55890770224678c34f41
+MD5      050f172a9a7a2e3d301a2776033e027f
+SHA-256  59c1dc85153ddec95ba67f291d236e21605dea157ca23bf1a2bf905d6d65891d
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
 
 ### 실행
 
-PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. **PSP-1000/3000 PRO-C와 Vita Adrenaline은 v3.13을 사용하십시오.** v3.13은 게임의 요구 버전 메타데이터를 `5.02`에서 `5.00`으로 낮추고, 확장된 스크립트의 런타임 포인터 정렬도 보정합니다. 5.00보다 낮은 펌웨어에서는 호환되는 CFW로 먼저 업데이트해야 합니다.
+PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨어의 ISO 로더(예: ARK/PRO 계열)가 필요하며, 메모리스틱·SD 카드의 `/ISO` 폴더에 결과 ISO를 복사한 뒤 로더에서 선택하십시오. 정품 펌웨어만으로는 수정된 ISO를 실행할 수 없습니다. **PSP-1000/3000 PRO-C와 Vita Adrenaline에서도 v3.15를 그대로 쓰면 됩니다.** v3.12 이후 판은 게임의 요구 버전 메타데이터를 `5.02`에서 `5.00`으로 낮추고, 확장된 스크립트의 런타임 포인터 정렬도 보정합니다. 5.00보다 낮은 펌웨어에서는 호환되는 CFW로 먼저 업데이트해야 합니다.
 
 ---
 
@@ -115,7 +115,7 @@ PPSSPP에서는 ISO를 열어 실행합니다. 실기에서는 커스텀 펌웨�
 
 ### 실기 호환
 
-아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.13은 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 또한 `PARAM.SFO`는 크기와 구조를 유지한 채 `PSP_SYSTEM_VER` 필드의 `5.02`를 `5.00`으로만 변경합니다.
+아카이브를 다른 LBA로 옮긴 빌드는 실기에서 `C1-2858-3` 오류가 났습니다. v3.15는 원본과 같은 크기의 `0000`·`0001`을 **원래 LBA에 제자리 교체**하고, 실행 파일(`EBOOT.BIN`, `BOOT.BIN`, `UMD_DATA.BIN`)을 일절 수정하지 않습니다. `0000`은 새 LZ11 스트림만 기록하고 스트림 뒤의 미사용 슬롯·패딩·트레일은 원본 바이트를 그대로 보존하도록 재빌드했습니다. 또한 `PARAM.SFO`는 크기와 구조를 유지한 채 `PSP_SYSTEM_VER` 필드의 `5.02`를 `5.00`으로만 변경합니다.
 
 이번 부팅 오류의 원인은 대사를 확장한 뒤 스트림의 일부 섹션 목적지와 포인터 배열 시작 위치가 4바이트 경계에서 벗어난 것이었습니다. MIPS 실기의 `lw`는 비정렬 주소에서 예외를 내지만 PPSSPP에서는 같은 문제가 드러나지 않을 수 있습니다. `build_runtime_refs.py`는 원본에서 정렬되어 있던 헤더 목적지 10곳과 포인터 배열 시작 33곳을 제약으로 삼아 필요한 위치에만 0 패딩을 삽입하고, 전체 33,371개 참조를 같은 오프셋 맵으로 다시 씁니다. v3.12 이후 43/43 대상 정렬과 10/10 헤더 목적지 검증을 통과합니다.
 
@@ -153,42 +153,30 @@ ANALYSIS.md      포맷 분석 기록 (한국어)
 원본 ISO를 `iso_extract/`로 풀어둔 뒤:
 
 ```
-python work/build_runtime_refs.py \
-    --base build/stream1_ko_retranslated_v2_font.bin \
-    --tsv build/translation_ko_v7_final.tsv \
-    --slots build/korean_slots_retranslated_v2.json \
-    --out build/stream1_ko_v312.bin \
-    --report build/runtime_v312_report.json --translation-is-final
+python work/assemble_box_fit.py            # 번역 v7 + build/condense/out_*.json -> translation_ko_v9.tsv
 
-python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
-    --plain0 build/stream0_v37.bin --plain1 build/stream1_ko_v312.bin \
-    --chain 64 --out build/0000_v312
+python work/build_runtime_refs.py     --base build/stream1_ko_retranslated_v2_font.bin     --tsv build/translation_ko_v9.tsv     --slots build/korean_slots_retranslated_v2.json     --out build/stream1_ko_v315.bin     --report build/runtime_v315_report.json --translation-is-final
 
-python work/patch_container_text.py --ledger work/container_ko.json \
-    --archive 0001 --out build/0001_v313 --chain 64
+python work/patch_labels.py --config work/labels_menu.json --clean build/stream0.bin     --stream build/stream0_v37.bin --out build/stream0_v314.bin
 
-python work/patch_param_sfo_version.py --src iso_extract/PSP_GAME/PARAM.SFO \
-    --out build/PARAM_SFO_v312 --from-version 5.02 --to-version 5.00
+python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000     --plain0 build/stream0_v314.bin --plain1 build/stream1_ko_v315.bin     --chain 64 --out build/0000_v315
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.13.iso \
-    --replace /PSP_GAME/PARAM.SFO build/PARAM_SFO_v312 \
-    --replace /PSP_GAME/USRDIR/0000 build/0000_v312 \
-    --replace /PSP_GAME/USRDIR/0001 build/0001_v313
+python work/patch_container_text.py --ledger work/container_ko.json     --archive 0001 --out build/0001_v313 --chain 64
 
-python work/verify_runtime_alignment.py \
-    --original font_extract/script_stream.bin \
-    --patched build/stream1_ko_v312.bin \
-    --report build/runtime_v312_report.json
+python work/patch_param_sfo_version.py --src iso_extract/PSP_GAME/PARAM.SFO     --out build/PARAM_SFO_v312 --from-version 5.02 --to-version 5.00
 
-python work/verify_hardware_iso.py --original "원본.iso" \
-    --patched Enkaku_Korean_v3.13.iso --system-version 5.00 \
-    --runtime-report build/runtime_v312_report.json
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.15.iso     --replace /PSP_GAME/PARAM.SFO build/PARAM_SFO_v312     --replace /PSP_GAME/USRDIR/0000 build/0000_v315     --replace /PSP_GAME/USRDIR/0001 build/0001_v313
+
+python work/verify_runtime_alignment.py     --original font_extract/script_stream.bin     --patched build/stream1_ko_v315.bin     --report build/runtime_v315_report.json
+
+python work/verify_hardware_iso.py --original "원본.iso"     --patched Enkaku_Korean_v3.15.iso --system-version 5.00     --runtime-report build/runtime_v315_report.json
 ```
 
 ---
 
 ## 알려진 문제
 
+- **정보 일람·사전·해설의 본문과 「クルーを手に入れた」 알림은 아직 일본어입니다.** 이 문장들은 대사 스크립트가 아니라 실행 파일(`EBOOT.BIN`) 안에 별도 글꼴(872자, 한글 없음)로 들어 있습니다. 한글화하려면 암호화된 실행 파일을 교체하고 글꼴을 재구성해야 해서 별도 작업으로 진행합니다
 - 일부 대사에 문장 끝 마침표가 빠져 있습니다
 - 일부 대사에 띄어쓰기가 소실된 구간이 있습니다
 - 초벌 번역의 어색한 표현이 남아 있습니다
