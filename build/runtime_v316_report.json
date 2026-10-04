@@ -3,10 +3,10 @@
   "source": "build\\stream1_ko_retranslated_v2_font.bin",
   "translation": "build\\translation_ko_v9.tsv",
   "slots": "build\\korean_slots_retranslated_v2.json",
-  "output": "build\\stream1_ko_v315.bin",
+  "output": "build\\stream1_ko_v316.bin",
   "original_size": 1509923,
   "output_size": 1667091,
-  "output_sha256": "7d954fc9a4ab2f96a99995ce78f2aae3453c82fb4eabb54c41d727d52e2a88e3",
+  "output_sha256": "4f8dc83d6901e6e9c3e0d1f6c209b42ad9f285a3f3ffb321d968f6c76f9674aa",
   "text": {
     "rows": 9626,
     "usable_spans": 9626,
@@ -224,10 +224,10 @@
         21
       ]
     ],
-    "manifest_or_structural_refs_excluded": 3,
+    "manifest_or_structural_refs_excluded": 0,
     "supplemental_refs_added": 194,
     "supplemental_refs_already_present": 0,
-    "excluded_ref_addresses": 3,
+    "excluded_ref_addresses": 0,
     "pointer_array_refs_added": 245,
     "runtime_refs_added": 8783,
     "runtime_manifest_overrides": 0,
@@ -302,13 +302,13 @@
       ]
     ],
     "duplicate_or_conflicting_runtime_refs": [],
-    "total_refs": 33376,
-    "reference_corrections": "D:\\psp\\원격수사\\build\\runtime_reference_supplement_cfg17.json",
+    "total_refs": 33379,
+    "reference_corrections": "build\\runtime_reference_supplement_v316.json",
     "supplemental_refs_requested": 194,
-    "excluded_ref_addresses_requested": 3,
-    "correction_basis": "user-tested CFG17 stream versus same-text current-manifest rebuild",
+    "excluded_ref_addresses_requested": 0,
+    "correction_basis": "cfg17 supplement refs, without its three exclusions (issue #4)",
     "typed_pointer_refs_added": 874,
-    "written": 33376
+    "written": 33379
   },
   "alignment": {
     "alignment": 4,
