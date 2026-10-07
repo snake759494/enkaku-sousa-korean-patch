@@ -1,0 +1,9853 @@
+[
+ {
+  "id": "u0000",
+  "ja": "ず自殺した安代。",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0xb62d4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0001",
+  "ja": "クラリッサ",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0002",
+  "ja": "フィアース",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0003",
+  "ja": "ラブライナ",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0004",
+  "ja": "レヴィン",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0005",
+  "ja": "ログナー",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0006",
+  "ja": "アレクシア",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0007",
+  "ja": "トニー",
+  "kind": "line",
+  "width": 5,
+  "max_lines": 1,
+  "tables": [
+   "0x1017b4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0008",
+  "ja": "黙秘権",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0009",
+  "ja": "三浦正信",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0010",
+  "ja": "吉本清香",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0011",
+  "ja": "白川美佐恵",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0012",
+  "ja": "白川のぞみ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0013",
+  "ja": "瓜二つ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0014",
+  "ja": "白川グループ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0015",
+  "ja": "×白川設計",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0016",
+  "ja": "×白川不動産",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0017",
+  "ja": "白川悟",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0018",
+  "ja": "リフォーム",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0019",
+  "ja": "アリバイの崩壊",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0020",
+  "ja": "タクシーに乗車",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0021",
+  "ja": "消えていたＢＧＭ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0022",
+  "ja": "朝露の証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0023",
+  "ja": "マスターの証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0024",
+  "ja": "防犯カメラ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0025",
+  "ja": "×防犯カメラ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0026",
+  "ja": "怪しい影",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0027",
+  "ja": "消された指紋の理由",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0028",
+  "ja": "キズの跡",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0029",
+  "ja": "外部音源",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0030",
+  "ja": "×欠番",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0031",
+  "ja": "クラシック",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0032",
+  "ja": "プレイヤー",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0033",
+  "ja": "リモコン",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0034",
+  "ja": "口論",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0035",
+  "ja": "○○こうじ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0036",
+  "ja": "元弁護士",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0037",
+  "ja": "白タクの可能性",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0038",
+  "ja": "扉を開けたままの犯行",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0039",
+  "ja": "引っ越し業者",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0040",
+  "ja": "凶器の違和感",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0041",
+  "ja": "一朗と朝露の関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0042",
+  "ja": "沼崎晋太郎",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0043",
+  "ja": "期待のホープ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0044",
+  "ja": "神崎茜",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0045",
+  "ja": "水無月葵",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0046",
+  "ja": "水無月幸司",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0047",
+  "ja": "×幸司は白川設計復帰",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0048",
+  "ja": "×ライトブルー",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0049",
+  "ja": "ＶＩＰルーム",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0050",
+  "ja": "×オートロック",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0051",
+  "ja": "防音仕様",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0052",
+  "ja": "近藤克美",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0053",
+  "ja": "消された指紋",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0054",
+  "ja": "司法取引",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0055",
+  "ja": "段ボール箱",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0056",
+  "ja": "父の手記",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0057",
+  "ja": "近藤のねつ造",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0058",
+  "ja": "白川一朗",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0059",
+  "ja": "拳銃",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0060",
+  "ja": "泥酔",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0061",
+  "ja": "白川家",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x112dfc",
+   "0x116b1c"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0062",
+  "ja": "斉藤佳代",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0063",
+  "ja": "白川ビル",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x112dfc"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0064",
+  "ja": "×白川ビル内",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0065",
+  "ja": "×応接コーナー",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0066",
+  "ja": "水谷探偵事務所",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x112dfc"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0067",
+  "ja": "水谷朝露",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0068",
+  "ja": "×水谷探偵事務所内",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0069",
+  "ja": "ＬＢ：カウンター",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0070",
+  "ja": "ＬＢ：事務所内",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0071",
+  "ja": "ＬＢ：トイレ前",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0072",
+  "ja": "ＬＢ：通路",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0073",
+  "ja": "ＬＢ：トイレ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0074",
+  "ja": "ＬＢ：ＶＩＰルーム前",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0075",
+  "ja": "沼崎法律事務所",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x112dfc"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0076",
+  "ja": "沼崎栄太郎",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0077",
+  "ja": "×法律事務所・所長室",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0078",
+  "ja": "光志のアパート",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0079",
+  "ja": "×光志のアパート中",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0080",
+  "ja": "首都タクシーセンター",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0081",
+  "ja": "×タクシーセンター内",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0082",
+  "ja": "斉藤志朗",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0083",
+  "ja": "新城法子",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0084",
+  "ja": "七芝伊月",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0085",
+  "ja": "ＬＢ：事務所前",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0086",
+  "ja": "自殺",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0087",
+  "ja": "朝露と清香の口論",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0088",
+  "ja": "罪の意識",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0089",
+  "ja": "不確かなアリバイ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0090",
+  "ja": "水無月のアリバイ証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0091",
+  "ja": "対戦者の証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0092",
+  "ja": "一年前からの計画",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0093",
+  "ja": "×安代の不倫と自殺",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0094",
+  "ja": "幸司の怨み",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0095",
+  "ja": "負けず嫌い",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0096",
+  "ja": "リベンジ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0097",
+  "ja": "宮上大付属病院",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x112dfc",
+   "0x116b1c"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0098",
+  "ja": "被害者と沼崎の裏側",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0099",
+  "ja": "朝露のアリバイ証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0100",
+  "ja": "沼崎栄太郎の弱み",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0101",
+  "ja": "汚れた関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0102",
+  "ja": "近藤克美の弱み",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0103",
+  "ja": "吉本澄香",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0104",
+  "ja": "吉本ユミ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0105",
+  "ja": "播磨直正",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0106",
+  "ja": "佳代と真二の関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0107",
+  "ja": "沼崎のアリバイ証言",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0108",
+  "ja": "朝露と近藤の関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0109",
+  "ja": "一目惚れ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0110",
+  "ja": "心臓移植手術",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0111",
+  "ja": "佳代と一朗の口論",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0112",
+  "ja": "朝露とゆみの関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0113",
+  "ja": "移植手術を装った殺人",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0114",
+  "ja": "×ドナーの記憶",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0115",
+  "ja": "よしもとゆみ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0116",
+  "ja": "不倫",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0117",
+  "ja": "白川真二",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0118",
+  "ja": "幸司の復職",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0119",
+  "ja": "隠蔽された証拠",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0120",
+  "ja": "姉妹関係",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0121",
+  "ja": "桜蔭高校",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0122",
+  "ja": "朝露の手紙",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0123",
+  "ja": "×社長室",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0124",
+  "ja": "×桜蔭高校職員室",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0125",
+  "ja": "×宮上大付属病院前",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0126",
+  "ja": "×宮上大付属病院内",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0127",
+  "ja": "×病院階段",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0128",
+  "ja": "アミューズハウス",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0129",
+  "ja": "×近藤はシロ",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0130",
+  "ja": "ライトブルーの鍵",
+  "kind": "line",
+  "width": 10,
+  "max_lines": 1,
+  "tables": [
+   "0x101804"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0131",
+  "ja": "日本国憲法第３８条に\nより認められている権\n利。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0132",
+  "ja": "今事件の担当刑事。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0133",
+  "ja": "被害者の妻。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0134",
+  "ja": "被害者の娘。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0135",
+  "ja": "白川美佐恵と斉藤佳代\nがそっくり。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0136",
+  "ja": "被害者が社長を務める\n住宅メーカーグループ。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0137",
+  "ja": "白川グループの設計部\n門。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0138",
+  "ja": "白川グループの不動産\n部門。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0139",
+  "ja": "白川グループの\n新代表。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0140",
+  "ja": "白川グループ新代表。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0141",
+  "ja": "今から９年前に、白川\nハウジングが光志の自\n宅をリフォームした。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0142",
+  "ja": "殺害時間がずれた事に\nよって関係者のアリバ\nイが崩壊した。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0143",
+  "ja": "酔いつぶれた光志は\nタクシーに乗せられ\nた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0144",
+  "ja": "事件発生後、ＢＧＭは\n流れていなかった。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0145",
+  "ja": "光志が酔いつぶれてい\nたという朝露の証言。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0146",
+  "ja": "光志が酔い潰れていたと\nいうマスターの証言。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0147",
+  "ja": "防犯カメラの確認。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0148",
+  "ja": "ライトブルー内の防犯\nカメラ。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0149",
+  "ja": "酔いつぶれている光志\nに近づく怪しい影。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0150",
+  "ja": "ＶＩＰルーム周りのド\nアの指紋が拭き取られ\nた跡がある。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0151",
+  "ja": "写真に写っていたプレ\nイヤー台にキズがつい\nていた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0152",
+  "ja": "ライトブルーのプレイ\nヤーに外部音源が接続\nされた可能性がある。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0153",
+  "ja": "欠番",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x102220",
+   "0x116b1c"
+  ],
+  "uses": 6
+ },
+ {
+  "id": "u0154",
+  "ja": "ＶＩＰルーム内はクラ\nシックが流れていた。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0155",
+  "ja": "ＣＤ、チューナー、外\n部入力経由の音源を再\n生可能。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0156",
+  "ja": "プレイヤーのリモコ\nン。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0157",
+  "ja": "光志と被害者の口論。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0158",
+  "ja": "ＶＩＰルームに入った\n謎の若い男。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0159",
+  "ja": "朝露は昔、白川グルー\nプの顧問弁護士だった。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0160",
+  "ja": "光志が乗ったタクシー\nは白タクだった可能性\nがある。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0161",
+  "ja": "防音のＶＩＰルームか\nら銃声が漏れたのは扉\nが開いていたから？",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0162",
+  "ja": "５年前に光志が頼んだ\n引っ越し業者。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0163",
+  "ja": "拳銃が凶器であること\nに違和感を覚える。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0164",
+  "ja": "水谷朝露と白川一朗は\n知り合いだった。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0165",
+  "ja": "大学時代、同じゼミに\n所属していた同級生。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0166",
+  "ja": "法子は沼崎法律事務所\nで期待されている存\n在。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0167",
+  "ja": "探偵事務所に出入りし\nている高校生。元気が\n一番！",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0168",
+  "ja": "探偵事務所に出入りし\nている高校生。おとな\nしくて控えめ。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0169",
+  "ja": "葵の兄で白川設計の\nエースだった男。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0170",
+  "ja": "幸司は白川設計に復帰\nすることになった。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0171",
+  "ja": "殺害事件現場となった\nバー。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0172",
+  "ja": "殺害事件現場となった、\nライトブルーのＶＩＰ\nルーム。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0173",
+  "ja": "ＶＩＰルーム近くのド\nアはオートロック仕様。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0174",
+  "ja": "ライトブルーのＶＩＰ\nルームは防音仕様。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0175",
+  "ja": "三浦の上司で、事件の\n第一発見者。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0176",
+  "ja": "近藤が持ちかけてきた\n司法取引まがいなこ\nと。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0177",
+  "ja": "光志の母の遺品が入っ\nている段ボール。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0178",
+  "ja": "ジャーナリストだった\n光志の父、志朗の取材\nメモ。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0179",
+  "ja": "些細なもめ事を口論と\n誇張させた近藤の証言。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0180",
+  "ja": "今事件の被害者。\n白川グループの代表。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0181",
+  "ja": "光志の指紋がついてい\nる、凶器となった拳銃。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0182",
+  "ja": "光志はライトブルー入\n店後、カウンターで酔\nいつぶれていた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0183",
+  "ja": "プレイヤーの台につい\nていた傷。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0184",
+  "ja": "被害者の自宅。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0185",
+  "ja": "光志の母。５年前に階\n段から転落して死亡。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0186",
+  "ja": "被害者が代表の白川グ\nループが入っているビ\nル。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0187",
+  "ja": "白川ビルのエントラン\nス。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0188",
+  "ja": "白川ビル内の応接コー\nナー。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0189",
+  "ja": "光志と朝露の仕事場。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0190",
+  "ja": "光志の上司。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0191",
+  "ja": "水谷探偵事務所の中。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0192",
+  "ja": "ライトブルーのカウン\nター。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0193",
+  "ja": "ライトブルーの事務所。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0194",
+  "ja": "ライトブルーのトイレ\nへ続く通路。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0195",
+  "ja": "ライトブルーのＶＩＰ\nルームへ続く通路。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0196",
+  "ja": "ライトブルーのトイレ。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0197",
+  "ja": "ライトブルーのＶＩＰ\nルーム前。現場保存の\nため中には入れない。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0198",
+  "ja": "法子の職場、沼崎法律\n事務所。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0199",
+  "ja": "沼崎法律事務所所長で\n法子の上司。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0200",
+  "ja": "沼崎法律事務所の所長\n室。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0201",
+  "ja": "光志が住んでいるアパ\nート。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0202",
+  "ja": "光志が住んでいるアパ\nートの部屋。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0203",
+  "ja": "都内のタクシーを管轄\nしている首都タクシー\nセンター。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0204",
+  "ja": "首都タクシーセンター\nの中。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0205",
+  "ja": "光志の父。\nジャーナリスト。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0206",
+  "ja": "今事件の担当弁護士。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0207",
+  "ja": "留置場の同居人（？）",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0208",
+  "ja": "ライトブルーの事務所\n前。ガラス窓が付いて\nいるので中が見える。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0209",
+  "ja": "のぞみの実母である白\n川安代は自殺して亡く\nなっていた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0210",
+  "ja": "水谷朝露と吉本清香が\n口論していた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0211",
+  "ja": "沼崎は安代が自殺した\n要因は自分にあると\n思っている。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0212",
+  "ja": "水谷朝露のみがアリバ\nイが確定しない…",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0213",
+  "ja": "『アミューズハウス』\nというゲームセンター\nでプレイしていた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0214",
+  "ja": "水無月幸司と格闘ゲー\nムで対戦していた人物\nの証言。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0215",
+  "ja": "白川悟は白川グループ\nのトップに立つことが\n計画されていた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0216",
+  "ja": "×\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0217",
+  "ja": "水無月幸司は雇用上の\nトラブルで白川一朗を\n怨んでいた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0218",
+  "ja": "水無月幸司は屈辱を受\nけるとリベンジする性\n格。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0219",
+  "ja": "水谷朝露が現在も通院\nしている病院。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0220",
+  "ja": "沼崎栄太郎は白川一朗\nに弱みを握られていた\n可能性がある。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0221",
+  "ja": "ライトブルーのカウン\nターで飲んでいた。席\nを立ったのは２回ほど。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0222",
+  "ja": "白川一朗と近藤克美の\n間には、何らかの汚れ\nた関係が存在する。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0223",
+  "ja": "水谷朝露は近藤克美の\n弱みを握っている。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0224",
+  "ja": "水谷朝露の本名。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0225",
+  "ja": "水谷朝露と白川真二の\n間に生まれた娘。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0226",
+  "ja": "宮上大付属病院の医師。\n",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0227",
+  "ja": "斉藤佳代と白川真二は\n先輩と後輩の関係。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0228",
+  "ja": "沼崎栄太郎は事件当日\n体調を崩していたらし\nい。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0229",
+  "ja": "水谷朝露と近藤克美の\n間にはなんらかの関係\nが存在するらしい。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0230",
+  "ja": "白川一朗は美佐恵に一\n目惚れしていたらしい。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0231",
+  "ja": "斉藤佳代が亡くなった\n日と水谷朝露が心臓移\n植を受けた日が同日。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0232",
+  "ja": "看護師の目撃証言によ\nると、佳代と一朗は病\n院で口論していた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0233",
+  "ja": "水谷朝露とよしもとゆ\nみの間にはなんらかの\n関係がある？",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0234",
+  "ja": "白川真二は腎臓移植手\n術のため渡欧したが…",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0235",
+  "ja": "×",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 7
+ },
+ {
+  "id": "u0236",
+  "ja": "白川のぞみの実母は自\n殺して亡くなってい\nた。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0237",
+  "ja": "白川のぞみが目撃した\n小さな女の子は『よし\nもとゆみ』と名乗った。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0238",
+  "ja": "白川安代が自殺した原\n因は沼崎栄太郎との不\n倫。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0239",
+  "ja": "白川一朗の弟。",
+  "kind": "line",
+  "width": 33,
+  "max_lines": 1,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0240",
+  "ja": "水無月幸司は一ヶ月前\nから復職する動きが\nあったらしい。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0241",
+  "ja": "ライトブルーの防犯カ\nメラに映っていた映像\nを隠蔽された。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0242",
+  "ja": "水谷朝露と吉本清香は\n姉妹関係。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0243",
+  "ja": "神崎茜と水無月葵が\n通っている高校。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0244",
+  "ja": "水谷朝露が光志に宛て\nた手紙。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0245",
+  "ja": "水無月幸司が事件当日\nに立ち寄ったゲームセ\nンター。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0246",
+  "ja": "白川一朗の弟で、白川\nハウジングの元副社長。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0247",
+  "ja": "営業中はカウンター内\nに置かれ、マスターが\n管理している。",
+  "kind": "multiline",
+  "width": 11,
+  "max_lines": 3,
+  "tables": [
+   "0x102220"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0248",
+  "ja": "はい",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0249",
+  "ja": "いいえ",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0250",
+  "ja": "これでよろしいですか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0251",
+  "ja": "黙秘しますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0252",
+  "ja": "何もありません",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0253",
+  "ja": "タイトルへ戻りますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0254",
+  "ja": "問証明済み",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0255",
+  "ja": "選んだクルー：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0256",
+  "ja": "会話を続けますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0257",
+  "ja": "セーブ",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0258",
+  "ja": "削除",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0259",
+  "ja": "黙秘　：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0260",
+  "ja": "人物　：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0261",
+  "ja": "場所　：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0262",
+  "ja": "証拠　：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0263",
+  "ja": "セーブされていませんがよろしいですか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0264",
+  "ja": "１１月",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0265",
+  "ja": "日",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0266",
+  "ja": "の調査予定",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0267",
+  "ja": "【調査場所】",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0268",
+  "ja": "【調査人物】",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0269",
+  "ja": "【メモ１】",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0270",
+  "ja": "【メモ２】",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0271",
+  "ja": "セーブしますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0272",
+  "ja": "【",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0273",
+  "ja": "】",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0274",
+  "ja": "を入手",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0275",
+  "ja": "午前と午後の予定は",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0276",
+  "ja": "調査を終了しますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0277",
+  "ja": "メモリスティックにセーブします。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0278",
+  "ja": "よろしいですか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0279",
+  "ja": "問中",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0280",
+  "ja": "セーブ中です。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0281",
+  "ja": "メモリスティックを",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0282",
+  "ja": "抜かないで下さい。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0283",
+  "ja": "桜蔭高校に入りますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0284",
+  "ja": "セーブが終了しました。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0285",
+  "ja": "ドアを開けて移動しますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0286",
+  "ja": "％",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0287",
+  "ja": "午前に調査する場所：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0288",
+  "ja": "正午に調査する場所：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0289",
+  "ja": "午後に調査する場所：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0290",
+  "ja": "すでにインストールデータが存在します。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0291",
+  "ja": "上書きしてよろしいですか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0292",
+  "ja": "インストールデータのセーブを中止しますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0293",
+  "ja": "セーブを中断しました。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0294",
+  "ja": "メモリースティックの空き容量が不足しています。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0295",
+  "ja": "他のデータを削除して空き容量を確保しますか？。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0296",
+  "ja": "階段に移動しますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0297",
+  "ja": "クルーを手に入れた",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0298",
+  "ja": "クルーを削除した",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0299",
+  "ja": "クルーを更新した",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0300",
+  "ja": "クルー情報を整理しました。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0301",
+  "ja": "破損しているデータが見つかりました。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0302",
+  "ja": "データインストールをオフにします。",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0303",
+  "ja": "取得したクルー：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0304",
+  "ja": "削除したクルー：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0305",
+  "ja": "更新したクルー：",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0306",
+  "ja": "調査場所選択の前に戻りますか？",
+  "kind": "line",
+  "width": 23,
+  "max_lines": 1,
+  "tables": [
+   "0x1035c0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0307",
+  "ja": "遠隔捜査のセーブデータを保存するには、",
+  "kind": "line",
+  "width": 19,
+  "max_lines": 1,
+  "tables": [
+   "0x1039c8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0308",
+  "ja": "２２４ＫＢ以上の空き容量が必要です。",
+  "kind": "line",
+  "width": 19,
+  "max_lines": 1,
+  "tables": [
+   "0x1039c8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0309",
+  "ja": "セーブデータの削除を行いますか？",
+  "kind": "line",
+  "width": 19,
+  "max_lines": 1,
+  "tables": [
+   "0x1039c8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0310",
+  "ja": "問１",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0311",
+  "ja": "問２",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0312",
+  "ja": "問３",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0313",
+  "ja": "問４",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0314",
+  "ja": "問５",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0315",
+  "ja": "問６",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0316",
+  "ja": "問７",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0317",
+  "ja": "問８",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0318",
+  "ja": "問９",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0319",
+  "ja": "問１０",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0320",
+  "ja": "問１１",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0321",
+  "ja": "問１２",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0322",
+  "ja": "問１３",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0323",
+  "ja": "問１４",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0324",
+  "ja": "問１５",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103a28"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0325",
+  "ja": "お前が殺したのは誰だ？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0326",
+  "ja": "今回の事件の被害者は？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0327",
+  "ja": "殺害時刻、何をしていた？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0328",
+  "ja": "光志の乗車記録がない理由",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0329",
+  "ja": "拳銃に指紋がついているのは？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0330",
+  "ja": "拳銃に気が付かなかった理由",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0331",
+  "ja": "被害者と口論していた？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0332",
+  "ja": "ＶＩＰルームに入っていない証拠",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0333",
+  "ja": "酔っていたという客観的な証拠",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0334",
+  "ja": "名刺が示す被害者との関係",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0335",
+  "ja": "ＶＩＰルームに入った若い男",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0336",
+  "ja": "父親の手記を見ていない証拠",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0337",
+  "ja": "計画殺人である理由",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0338",
+  "ja": "光志のあやふやなアリバイ",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0339",
+  "ja": "殺人を犯していない根拠",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0340",
+  "ja": "この事件の真犯人は誰だ！？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0341",
+  "ja": "沼崎栄太郎は何をしていた？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0342",
+  "ja": "ウソのアリバイを申告した理由",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0343",
+  "ja": "水谷朝露は何をしていた？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0344",
+  "ja": "朝露のアリバイを証明できるか",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0345",
+  "ja": "水無月幸司は何をしていた？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0346",
+  "ja": "水無月のアリバイを証明できるか",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0347",
+  "ja": "少女の正体は？",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0348",
+  "ja": "－－－－－－－－－－－－－－－－－－－－",
+  "kind": "line",
+  "width": 20,
+  "max_lines": 1,
+  "tables": [
+   "0x103b0c"
+  ],
+  "uses": 7
+ },
+ {
+  "id": "u0349",
+  "ja": "１",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0350",
+  "ja": "２",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0351",
+  "ja": "３",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0352",
+  "ja": "４",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0353",
+  "ja": "５",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0354",
+  "ja": "６",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0355",
+  "ja": "７",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0356",
+  "ja": "８",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0357",
+  "ja": "９",
+  "kind": "line",
+  "width": 1,
+  "max_lines": 1,
+  "tables": [
+   "0x103e68"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0358",
+  "ja": "（月）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0359",
+  "ja": "（火）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0360",
+  "ja": "（水）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0361",
+  "ja": "（木）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0362",
+  "ja": "（金）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0363",
+  "ja": "（土）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0364",
+  "ja": "（日）",
+  "kind": "line",
+  "width": 3,
+  "max_lines": 1,
+  "tables": [
+   "0x103eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0365",
+  "ja": "光志が殺した人物を答えろ。\nどう考えても１人しかいないのだが…\n少し意味深な怖問だ…",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0366",
+  "ja": "殺された人物は？\n今度は普通に答えて大丈夫のようだ…",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0367",
+  "ja": "アリバイがあやふやだ。\n殺害時間、何をしていた？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0368",
+  "ja": "タクシーに乗せたという記録が\n一切出てこない。\nこれをどう言い逃れするつもりだ",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0369",
+  "ja": "拳銃にはお前の指紋がついていた。\nこれはお前が犯行を実行したという\n証拠じゃないか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0370",
+  "ja": "拳銃に指紋を付けられる事に\n気がつかないほど、\nお前は鈍いのか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0371",
+  "ja": "お前は被害者と口論していたとの\n目撃証言がある。\nこれは殺害動機に繋がるのでは？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0372",
+  "ja": "お前はＶＩＰルームに入っていないと\n主張するが、\n入っていないという証拠はあるのか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0373",
+  "ja": "酔っていたという\n客観的な証拠はあるのか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0374",
+  "ja": "白川一朗の名刺が光志の部屋から発見！\nつまり被害者と光志は以前に\n会っていた事が証明されてしまう。\nこれをどう説明する？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0375",
+  "ja": "ＶＩＰルームにお前くらいの若い男が\n入ったのを従業員が目撃している。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0376",
+  "ja": "手記に書かれた、白川一朗の手によって\n殺されたという内容。\nこれは今事件の動機に繋がる内容だ。\nこれをどう説明する？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0377",
+  "ja": "被害者の顔を見て\n衝動的に殺してしまったのではないか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0378",
+  "ja": "結局、関係者の中で光志だけが\nアリバイがあやふやだ。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0379",
+  "ja": "お前が酔いつぶれていたのなら、殺人を\n犯した行為自体を忘れてしまっている…\nそう考えられないか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0380",
+  "ja": "光志が推理するこの事件の真犯人は\n一体誰なのか。そして、\nその人物が犯人であるという根拠は？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0381",
+  "ja": "光志が怪しいと思う人物の１人、\n沼崎栄太郎。彼は殺害時刻と思われる\n時間帯に、なにをしていたのか。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0382",
+  "ja": "沼崎栄太郎は嘘のアリバイを申告していた。\n彼が嘘をついていた理由とは？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0383",
+  "ja": "光志が怪しいと思う人物の１人、\n水谷朝露。彼女は殺害時刻と思われる\n時間帯に、なにをしていたのか。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0384",
+  "ja": "水谷朝露のアリバイを証明できる人物が\nいない。彼女のアリバイを客観的に\n証明することはできるのか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0385",
+  "ja": "光志が怪しいと思う人物の１人、\n水無月幸司。彼は殺害時刻と思われる\n時間帯に、なにをしていたのか。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0386",
+  "ja": "水無月幸司がゲームセンターにいた時間を\n証明することはできるのか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0387",
+  "ja": "白川ビルに、時折小さな女の子が\n現れるらしい。\nこの少女の正体を知っているか？",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0388",
+  "ja": "怖問その２３",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0389",
+  "ja": "怖問その２４",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0390",
+  "ja": "怖問その２５",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0391",
+  "ja": "怖問その２６",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0392",
+  "ja": "怖問その２７",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0393",
+  "ja": "怖問その２８",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0394",
+  "ja": "怖問その２９",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0395",
+  "ja": "怖問その３０",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x103efc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0396",
+  "ja": "この怖問はひっかけだった。\n自ら言わせることで罪を\n認めさせようとしたのだ。\n光志は黙秘でこの場を切り抜ける。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0397",
+  "ja": "この事件の被害者は\n【白川一朗】で間違いない。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0398",
+  "ja": "水谷朝露は酔っていた光志を\n【タクシーに乗車】させたと証言した。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0399",
+  "ja": "タクシーに乗った記録がどこにも無いのは\n白タクに乗車した可能性があるため。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0400",
+  "ja": "防犯カメラに写っている\n【怪しい影】が\n拳銃に光志の指紋をつけた。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0401",
+  "ja": "光志は【泥酔】していた。\nだから拳銃に指紋をつけられたことに\n気がつかなかった。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0402",
+  "ja": "近藤の証言は明らかに情報を\nねつ造しようとしている！\n【司法取引】を持ちかけてくる\n彼の証言は信用できない！",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0403",
+  "ja": "もし光志がＶＩＰルームに入ったのなら\n拳銃に指紋が残っていたことから考えると\n扉に指紋が残っていなければおかしい。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0404",
+  "ja": "酔っていたのを証明してくれたのは\n【マスターの証言】だった。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0405",
+  "ja": "被害者の名刺は\n９年前に家を【リフォーム】した時に\n貰ったもの。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0406",
+  "ja": "若い男は【水無月幸司】である。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0407",
+  "ja": "【リフォーム】を頼んだのは父の死後。\n父を殺したと知っていたら\n【リフォーム】なんて頼まない。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0408",
+  "ja": "凶器は拳銃。\n拳銃は簡単に手に入るものではなく、\n所持しているだけで罰せられるもの。\nその性質から、\n衝動的な犯行だとは考えにくい。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0409",
+  "ja": "ＶＩＰルームの扉は開いていて、\n銃声も外部入力で人為的に発生させた\nものだった。\nよって、銃声＝犯行時間ではなくなり\n関係者のアリバイは崩壊した。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0410",
+  "ja": "最後の最後まで論破出来なかった！\nだが勾留が延長されることによって\nチャンスは残っていそうだ！",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0411",
+  "ja": "光志は水谷朝露の名前を挙げた。\n１人だけアリバイが確定しておらず、\n光志の隣に座っていた彼女であれば、\nいつでも拳銃に光志の指紋を\nつけることができたからだ。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0412",
+  "ja": "沼崎栄太郎はトイレにいたと証言している。\nだが光志と被害者の【口論】を知らない。\n彼は本当に、トイレにいたのだろうか…",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0413",
+  "ja": "沼崎栄太郎が嘘の証言をしていたのは、\n沼崎と安代の関係が原因だろう。\n彼はずっと【罪の意識】を感じていた。\nそんな彼を脅す電話があり、\n電話の主を特定するため席を外していた。\nこれで沼崎栄太郎のアリバイは証明された。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0414",
+  "ja": "水谷朝露はトイレで化粧を直していた。\nこの証言の裏付けを取らなければならない。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0415",
+  "ja": "回答その１９",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0416",
+  "ja": "水無月幸司はゲームセンターに向かった。\nしかし、誰もそれを目撃していない。\n彼のアリバイを証明しなければ…",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0417",
+  "ja": "水無月幸司のアリバイは証明された。\n彼が対戦ゲームをしていたことを\n対戦相手の友人が証言してくれるという。\nゲームで負けた悔しさから、警察には\n詳しく話していなかったようだ。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0418",
+  "ja": "彼女の名前は【吉本ユミ】。\n水谷朝露の娘である。",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0419",
+  "ja": "回答その２３",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0420",
+  "ja": "回答その２４",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0421",
+  "ja": "回答その２５",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0422",
+  "ja": "回答その２６",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0423",
+  "ja": "回答その２７",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0424",
+  "ja": "回答その２８",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0425",
+  "ja": "回答その２９",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0426",
+  "ja": "回答その３０",
+  "kind": "record",
+  "width": 20,
+  "max_lines": 10,
+  "tables": [
+   "0x104a34"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0427",
+  "ja": "日本国憲法第３８条によって保証されている権利。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0428",
+  "ja": "光志の取調を担当している刑事。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0429",
+  "ja": "取調中に調書を書いている刑事。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0430",
+  "ja": "白川一朗の妻。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0431",
+  "ja": "白川一朗の娘。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0432",
+  "ja": "被害者の妻である白川美佐恵と\n光志の母親である斉藤佳代はよく\n似ているが、曾租父の代まで遡っても\n血縁関係はない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0433",
+  "ja": "グループ会社には\n客の窓口となる『白川ハウジング』\n設計部門を担当する『白川設計』\n不動産業の『白川不動産』がある。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0434",
+  "ja": "前代表の白川一朗が殺害されたことによって、\n新代表に就任した男。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0435",
+  "ja": "前代表の白川一朗が殺害されたことによって、\n新代表に就任した男。\n　\n白川一朗のいとこにあたる。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x105654",
+   "0x109800"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0436",
+  "ja": "リフォームを施工したのは、白川ハウジング。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0437",
+  "ja": "銃声はＶＩＰルームのスピーカーから\n再生されたものと推測。その結果、\n銃声が聞こえた時間＝殺害時間ではないと推理。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0438",
+  "ja": "朝露は酔いつぶれた光志をタクシーに乗せ、\nタクシーの運転手に光志のアパートの住所を告げ、\nお金を渡して送ってもらった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0439",
+  "ja": "白川一朗のリクエストによりクラシック曲を\nループ再生していたにもかかわらず、\n事件発生後にはＢＧＭが流れていなかった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0440",
+  "ja": "光志が飲んだ酒の量まで証言してくれることを約束。\nしかし身内の証言は、客観性、中立性という点で\n低く受けとめられてしまうため、\n証言力が低下してしまうことも多い。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0441",
+  "ja": "本当に酔っている人と酔った振りをしている人を\n集め、見分ける実験をしても良いと約束。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0442",
+  "ja": "法子が撮影したライトブルーの写真に、\n防犯カメラらしきものが映っていた。\nこれが何であるか調査し、防犯カメラであれば\nそこに映っている映像を確認する。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0443",
+  "ja": "ライトブルーのカウンターを映している\n防犯カメラの映像。スーツを着た男が\n酔いつぶれている光志に近づいている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0444",
+  "ja": "ＶＩＰルーム周りのドアには指紋が\n拭き取られた跡があり、残っていた指紋は\n第一発見者の近藤克美刑事のものだけだった。\n　\nこの理由として、真犯人がＶＩＰルーム周りの\nドアの指紋を消したのは、真犯人自身の\n指紋を消すのが目的ではなく、光志の指紋が\nついていない違和感を無くすためであると\n推理できる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0445",
+  "ja": "法子が発見した、プレイヤー台についている傷痕。\nプレイヤーを回転させた？",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0446",
+  "ja": "ＶＩＰルームのＢＧＭを制御している\nプレイヤーにある傷痕から推理すると、\nプレイヤーの裏側にある外部入力端子に、\n何らかの外部音源を接続した可能性がある。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0447",
+  "ja": "被害者のリクエストにより、\n事件当日のＶＩＰルーム内にはクラシックの\nＣＤがループ再生され、ＢＧＭとして流れていた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0448",
+  "ja": "利用者のリクエストを聞くために、\nＶＩＰルーム内に流れるＢＧＭを\n制御しているプレイヤー。\nＣＤ、チューナーはもちろん、\n外部音源と接続することが可能。\n但し、外部音源と接続する端子はプレイヤーの\n裏側にあるため、外部音源と接続するためには\nプレイヤーを回転させなければならない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0449",
+  "ja": "ＶＩＰルーム用プレイヤーのリモコンと\n店内用プレイヤーのリモコンの二つが存在する。\n事件当日ＶＩＰルーム用プレイヤーの\nリモコンが紛失していたとの証言アリ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0450",
+  "ja": "事件当日、光志と白川一朗が\n口論していたという目撃証言あり。\n目撃者は三浦の上司である近藤克美。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0451",
+  "ja": "事件当日、ＶＩＰルームに入った若い男は\n「こうじ」と言う名前らしい。\nこの男の正体は…？",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0452",
+  "ja": "水谷朝露は探偵になる前に弁護士をしていた。\n白川グループの顧問弁護士を務めていたが、\n現在は弁護士を辞めて探偵になっている。\n弁護士を辞めた理由は不明。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0453",
+  "ja": "首都タクシーセンターで問い合わせした結果、\n光志らしき人物を乗車させた形跡が\n存在しなかった。\nもしかしたらそのタクシーは\n無許可営業車（白タク）の可能性がある。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0454",
+  "ja": "銃声が店内に鳴り清いた。\nしかし犯行現場であるＶＩＰルームは防音仕様。\nもしかしたら扉を開けたまま\n拳銃を発砲したのではないか！",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0455",
+  "ja": "光志が今のアパートに引っ越す時に呼んだ\n引っ越し屋。\n光志はお任せコースで依頼していた。\nテキパキとこなすプロの技が自慢。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0456",
+  "ja": "白川のぞみが言っていた言葉。\n犯人は防音設備があることを計算していたはず。\n銃声が店内に清き渡ったことに違和感を覚える。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0457",
+  "ja": "水谷朝露は被害者である白川一朗と\n知り合いだった。\nしかしどのような関係であるのか不明。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0458",
+  "ja": "大学時代、同じゼミに所属していた同級生。\n法子のことを密かに（？）狙っていて、\nあの手この手でデートに誘っていたようだが、\nその天然ボケな行動でことごとく失敗。\n　\n指導教授のかつらが紛失した事件で、\n光志に濡れ衣を着せた人物でもある。\n何かと光志を目の敵にしているが、何をやっても\n光志に敵わないので、憎めない男である。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0459",
+  "ja": "沼崎晋太郎によると、法子は沼崎法律事務所内で\n期待されている存在らしい。\n所長の沼崎栄太郎は息子の晋太郎を差し置いても\n自分の後継者にしようと考えているらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0460",
+  "ja": "以前、通り魔に襲われかけていた神崎茜と\n水無月葵を、光志が助けたことがあった。\nそれ以来探偵事務所に出入りしている。\n　\n茜は元気が何よりの取り柄。\n考えるよりまず行動な性格で、トラブルメーカーな\n一面も。しかしその積極性は光志を見ていて\n学んだものであると主張。完全ボケタイプ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0461",
+  "ja": "以前、通り魔に襲われかけていた神崎茜と\n水無月葵を、光志が助けたことがあった。\nそれ以来探偵事務所に出入りしている。\n　\n葵は慎重に考えた上で行動するタイプ。\n無茶しないだけ茜よりも信頼を置けるが、\n慎重すぎて絶好の機会を失うことも…\n勘が鋭いところもある。\n見かけによらずツッコミタイプ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0462",
+  "ja": "水無月葵の兄で、白川設計の元社員。\n事件当日のＶＩＰルームで、白川一朗と会っていた。\n白川一朗を恨んでいるらしいが…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0463",
+  "ja": "白川一朗が殺されていた現場。\n何者かと争ったのか、それとも\n撃たれた傷の痛みにもがいていたのか、\n部屋の中は酷く散らかっている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0464",
+  "ja": "ＶＩＰルームは秘匿性の高い会\n議に使われることもあり、トイ\nレと間違った客が入り込まない\nように、一方通行のオートロッ\nクになっている。ロックを解除\nするためには、使用者が設定し\nたパスワードを入力する必要が\nある。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x105654",
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 5
+ },
+ {
+  "id": "u0465",
+  "ja": "ＶＩＰルームは秘匿性の高い会議や\n打ち合わせに使われることを想定し、\n防音仕様となっていた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0466",
+  "ja": "事件の第一発見者。\n銃声が聞こえてすぐに駆け付けたが、\nその時には既に犯人の姿はなかったと証言。\n三浦正信の上司で捜査一課の課長。\n　\n沼崎栄太郎とは高校の同級生。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x105654",
+   "0x109800"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0467",
+  "ja": "ＶＩＰルーム周りのドアには指紋が\n拭き取られた跡があり、残っていた指紋は\n第一発見者の近藤克美刑事のものだけだった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0468",
+  "ja": "近藤克美刑事は自白すれば傷害致死にしてやると、\n司法取引まがいなことを持ちかけてきた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0469",
+  "ja": "母・佳代が亡くなった時に、\n母が大切にしていたと思われるものを\nまとめて入れておいた段ボール箱。\n引っ越しする際に、引っ越し業者が\nガムテープで補強してくれた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0470",
+  "ja": "『オレは白川一朗に狙われている。\nもしオレになにかあったら……\nそれがどれだけ自然に\n見えるものであっても、\n白川の手によるものだと思ってほしい』\nと書かれている。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x105654",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0471",
+  "ja": "近藤克美は光志と白川一朗の些細なトラブルを\n誇張して証言していた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0472",
+  "ja": "今回の事件の被害者。\n住宅メーカーである白川グループの代表で、\n日本トップ企業にした辣腕（らつわん）。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0473",
+  "ja": "事件の凶器である拳銃。\n光志の指紋がついており、\n店外のゴミ箱に棄てられていた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0474",
+  "ja": "事件当日、光志と白川一朗が\n口論していたという目撃証言あり。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0475",
+  "ja": "光志はライトブルーに入店してからずっと、\nカウンターで酔いつぶれて眠っていた。\nそのため記憶はあいまいで、\n０時４４分にライトブルーにいたのかさえ\n憶えていない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0476",
+  "ja": "法子が発見した、プレイヤー台についている傷痕。\n　\nしかし従業員の話では、\nこのキズに心当たりがない上に、\nどうやらここ数日内についたキズらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0477",
+  "ja": "白川一朗の自宅。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0478",
+  "ja": "光志の母。\n５年前に仕事場である病院の階段から\n転落して死亡した。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0479",
+  "ja": "白川一朗が代表を務めていた、\n白川グループ各企業の本社が入っているビル。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0480",
+  "ja": "光志が所属している水谷探偵事務所。\n定休日は日曜日。\n午前は調査に出かけていることが多い。\n近くには名門・桜蔭高等学校がある。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0481",
+  "ja": "光志の上司。\nサッパリしていて同性から慕われるタイプ。\n鋭い推理力を持っていて、関係者から\n一目置かれている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0482",
+  "ja": "ライトブルーの入り口の目の前にある\nカウンター。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0483",
+  "ja": "ライトブルーの事務所内。\n従業員の休憩室を兼ねている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0484",
+  "ja": "ライトブルーの廊下。\n左にトイレがあり、\n突き当たりは非常口となっている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0485",
+  "ja": "ライトブルーのＶＩＰルームへ続く通路。\nＶＩＰルーム側から手でドアの鍵を\n締める事が可能。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0486",
+  "ja": "ライトブルーのトイレ。\n白川一朗と光志がここで\n口論していたという目撃情報アリ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0487",
+  "ja": "ライトブルーのＶＩＰルーム前。\n現場保存のため中には入れない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0488",
+  "ja": "法子が所属している沼崎法律事務所。\n沼崎栄太郎の休業日は木曜日で、\n午後は外出していることが多い。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0489",
+  "ja": "法子の上司。\n優秀な弁護士で、同業者で知らぬ者はいない。\n現在、白川グループの顧問弁護士をしている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0490",
+  "ja": "光志が住んでいるアパート。\n１Ｋで家賃は５５０００円。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0491",
+  "ja": "都内のタクシーを管轄している\n首都タクシーセンター。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0492",
+  "ja": "光志の父。\nフリーのジャーナリストだったが、\n２０年前に交通事故で亡くなった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0493",
+  "ja": "今回の事件の担当弁護士。\n５年前までは光志の恋人でもあった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0494",
+  "ja": "留置場で同室の男。\n本人日く、職業は作家。\nわいせつ物親布罪で逮捕されたとのこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0495",
+  "ja": "ライトブルーの事務所前。\n事務所のドアには中が見えるように\nガラス窓がついている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0496",
+  "ja": "のぞみの実母である白川安代は、\n自殺して亡くなっていた。\n自殺の原因は不明。\n法子はこの事実を光志に報告していなかったが、\nそれは沼崎栄太郎に口止めされていたため。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0497",
+  "ja": "法子の目撃証言。\n警察署の駐車場の隅で水谷朝露と\n吉本清香が口論していたとのこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0498",
+  "ja": "朝露の推理では、沼崎栄太郎は白川一朗に\n弱みを握られているとのこと。その弱みとは\n白川安代と不倫していた事実のことではないかと\n推理していたが、実際には不倫の事実はなく、\n沼崎は安代から白川一朗が人殺しをしたのでは\nないかという相談を受けていただけだった。\n　\nしかしそれがキッカケで安代は自殺してしまい、\n沼崎は心に大きなキズを負っていた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0499",
+  "ja": "容疑者候補だった沼崎栄太郎、水無月幸司、\n近藤克美のアリバイは確定した。\nだが水谷朝露のアリバイのみが確定しない…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0500",
+  "ja": "２３時過ぎにライトブルーに入り、\nそのままＶＩＰルームへ。\nそこで１時間弱くらい白川一朗と話したあと、\nライトブルーから徒歩５分ほどの場所にある\nゲームセンターに立ち寄ったとのこと。\n　\n但し、まだ裏付けはとっていない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0501",
+  "ja": "ライトブルーから徒歩５分ほどの場所にある\nゲームセンターで格闘ゲームをプレイしていた。\n時間は０時１０分頃から０時５０分頃。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0502",
+  "ja": "白川悟が白川グループの代表に立つことは、\n一年前から計画されていた。\nそのころから白川悟は、水無月幸司を\n白川設計に復職させることを画策していたとの噂。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0503",
+  "ja": "かつて白川一朗は会社のために\n身を削っていた水無月幸司を解雇したことがあった。\n　\nそれ以来、水無月幸司は白川一朗を怨んでいた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0504",
+  "ja": "２３時過ぎにライトブルーに入り、\nそのままＶＩＰルームへ。\nそこで１時間弱くらい白川一朗と話したあと、\nライトブルーから徒歩５分ほどの場所にある\nゲームセンターに立ち寄ったとのこと。\n　\n水無月幸司は極度の負けず嫌い。\n事件当日、ゲーム台のレバーを壊したことから、\nもしかしたらプレイ時間がわかるかも…？",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0505",
+  "ja": "水無月幸司は屈辱を与えられた相手に、\n同じ屈辱を与え返さないと気が済まない性格。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0506",
+  "ja": "水谷朝露が現在も通院している病院。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0507",
+  "ja": "朝露の推理では、沼崎栄太郎は白川一朗に\n弱みを握られているとのこと。\n　\nその弱みとは白川安代と不倫していた\n事実のことではないか？\nだが、白川一朗自身が恋敵とも言える沼崎を\n白川グループの顧問弁護士にしたことも\n疑問が残るが…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0508",
+  "ja": "ライトブルーに着いたのが２３時３０分頃。\n酔いつぶれてしまった光志を隣に座らせ、\nカウンターでチビチビ飲んでいたらしい。\n　\n席を立ったのはトイレに行った時と、\n０時前後に掛かってきたケータイ電話に\n出たときくらい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0509",
+  "ja": "朝露の推理では、沼崎栄太郎は白川一朗に\n弱みを握られているとのこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0510",
+  "ja": "白川一朗と近藤克美の間には、\n何らかの汚れた関係が存在すると、\n水谷朝露が証言。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0511",
+  "ja": "近藤克美刑事は水谷朝露を\n逮捕することができないらしい。\nそれは朝露が近藤の弱みを握っているから\nらしいが…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0512",
+  "ja": "水谷朝露の本名。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0513",
+  "ja": "水谷朝露と白川真二の間に生まれた娘。\n最近、白川ビルで度々目撃されているらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0514",
+  "ja": "宮上大付属病院で斉藤佳代の心臓を移植した医師。\nかつてヨーロッパの病院にいたが、\n白川一朗の担当医として日本に帰国する。\nしかし、佳代の心臓移植から一月後に失踪。\n　\n播磨は朝露に心臓移植手術を持ちかける際、\n『あなたに心臓を与えたいという意志を持っている\n人がいる。その意志を受け取る覚悟はあるか？』\nと言っていたらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0515",
+  "ja": "斉藤佳代と白川真二は桜蔭高校放送部の\n先輩と後輩の関係。\n斉藤佳代が３年の時、白川真二は１年生だった。\n白川真二は斉藤佳代に憧れていたらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0516",
+  "ja": "沼崎栄太郎自身の証言によると、\nライトブルーに着いたのが２３時頃。\nそのままＶＩＰルームに入り、\n軽い打ち合わせの後ホールにいたが、\n沼崎は事件当日体調を崩していたらしい。\n　\nそのため０時頃から０時４０分くらいまで、\nずっとトイレに籠もっていたとのこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0517",
+  "ja": "沼崎栄太郎に白川一朗と近藤克美の関係を\n聞いたところ、あからさまに機嫌が義くなった。\nそして二人の関係については水谷朝露が\n詳しいから彼女に聞いて欲しいとのこと。\n　\nここから推理すると、朝露と近藤の間にも\n何らかの関係があることがわかる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0518",
+  "ja": "白川一朗は美佐恵と再婚するまで、\n沼崎栄太郎に相談を持ちかけていた。\nその時、一朗は美佐恵に一目惚れをしたと\n言っていたらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0519",
+  "ja": "斉藤佳代が亡くなった日と\n水谷朝露が心臓移植を受けた日が\n２００４年の１０月２２日で同日だった。\n　\n佳代の心臓が朝露に移植された可能性が\n極めてたかいことが判明。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0520",
+  "ja": "宮上大付属病院で斉藤佳代の心臓を移植した医師。\n　\nかつてヨーロッパの病院にいたが、\n白川一朗の担当医として日本に帰国する。\nしかし、佳代の心臓移植から一月後に失踪。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0521",
+  "ja": "斉藤佳代と白川一朗は病院で口論していたらしい。\n　\n目撃した看護師によると、男は鬼気迫る表情で、\n『オレが斉藤志朗を殺したと疑っているのか』と\n言っていたらしいが…\nその直後に斉藤佳代は階段から転落して\n亡くなっている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0522",
+  "ja": "宮上大付属病院で斉藤佳代の心臓を移植した医師。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0523",
+  "ja": "水谷朝露の本名は吉本姓。\nよしもとゆみと何らかの関係があるのだろうか？",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0524",
+  "ja": "白川真二は腎臓移植手術を受けるために\n渡欧したが、手術は失敗。\n結果的に心臓病を患っていた白川一朗に\n心臓が移植された。\n　\nあまりにも白川一朗に都合の良い展開に感じるが…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0525",
+  "ja": "のぞみの実母は、自殺して亡くなっていた。\n自殺の原因は不明。\nだが、法子はこの事実を光志に\n報告していなかった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0526",
+  "ja": "白川ビルに小さな女の子が現れるらしい。\n白川のぞみが偶然女の子と出会い、\n彼女に名前を怖ねたところ、\n『よしもとゆみ』と名乗ったらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0527",
+  "ja": "のぞみの実母である白川安代は、\n自殺して亡くなっていた。\n原因は沼崎栄太郎との不倫を\n白川一朗に追及されたため。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0528",
+  "ja": "白川一朗の弟。\nまた、朝露の元恋人でもある。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0529",
+  "ja": "ずっと引きこもり生活だった水無月幸司が、\n一ヶ月前くらいから復職に向けて\n頻繁に部屋を出ていたらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0530",
+  "ja": "ライトブルーの防犯カメラに映っていた、\n光志に近づく謎の影。\n　\n第三者が凶器の拳銃に光志の指紋を付ける\n決定的な証拠になるかと思われたが、\n近藤によって隠蔽されてしまった。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0531",
+  "ja": "水谷朝露と吉本清香は実の姉妹。\n吉本清香自身が証言。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0532",
+  "ja": "神崎茜と水無月葵が通っている高校。\n水谷探偵事務所の近くにある。\nかつて、斉藤佳代と白川真二も通っていた。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0533",
+  "ja": "『ようやく長い間捜していた人物が\n見つかったので、しばらく留守にします。\nごめんね、コウちゃん……』",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0534",
+  "ja": "水無月幸司が白川一朗とＶＩＰルームで会った後、\n立ち寄ったゲームセンター。\n殺害現場から徒歩５分くらいの場所に位置している。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0535",
+  "ja": "白川一朗の弟で、白川ハウジングの元副社長。\nまた、朝露の元恋人でもある。\n　\n腎臓移植手術の失敗が原因で死亡。\n被害者とは対照的な性格だったらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0536",
+  "ja": "ずっと引きこもり生活だった水無月幸司が、\n一ヶ月前くらいから復職に向けて\n頻繁に部屋を出ていたらしい。\n　\n白川悟の証言によると、確かに一ヶ月前くらいから\n具体的に幸司を復職させる動きがあったとのこと。\nしかし実際に復職したのは、\n白川一朗が亡くなった後である事実は変わらず、\n幸司の身の潔白を証明するまでには至らない…",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0537",
+  "ja": "ライトブルー内の扉の鍵は、鍵束になっていて、\n営業時間内はカウンター内に置かれ、マスターの\n管理下にある。\n　\n特に事件前日に事務所の鍵が開けっ放しに\nなっていたこともあり、事件当日は鍵を\n厳重に管理していたらしい。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x105654"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0538",
+  "ja": "光志の取調を担当している刑事。\n捜査一課ナンバーワンの切れ者らしい。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0539",
+  "ja": "取調中に調書を書いている刑事。\n国家公務員試験をトップの成績で合格した才女。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0540",
+  "ja": "白川一朗の妻。\n光志の母、斉藤佳代にそっくりだが、\n血縁関係はないらしい。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0541",
+  "ja": "白川一朗の娘。\nしかし美佐恵とは血が繋がっていない…？\n実母は自殺したらしいが…",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0542",
+  "ja": "リフォームを施工したのは、白川ハウジング。\n光志はその時に、白川ハウジングの代表と\n副代表と挨拶していた。\nその際に白川一朗の名刺をもらっていた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0543",
+  "ja": "被害者のリクエストによりクラ\nッシック曲をループ再生してい\nたにもかかわらず、事件発生時\nにはＢＧＭが流れていなかった\n。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0544",
+  "ja": "ＶＩＰルームのＢＧＭを制御し\nているプレイヤーの裏側にある\n外部入力端子に、何らかの外部\n音源を接続した可能性がある？",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0545",
+  "ja": "被害者のリクエストにより、事欠番\n件当日のＶＩＰルーム内にはク\nラッシック曲がループ再生され\n、ＢＧＭとして流れていた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0546",
+  "ja": "利用者のリクエストを聞くため\nに、ＶＩＰルーム内に流れるＢ\nＧＭを制御しているプレイヤー\n。ＣＤ、チューナーはもちろん\n、外部音源と接続することが可\n能。但し、外部音源と接続する\nためには、プレイヤーを回転さ\nせなければならない。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0547",
+  "ja": "ＶＩＰルーム用と店内用の二つ\nが存在するが、紛失していたの\nはＶＩＰルーム用。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0548",
+  "ja": "事件当日、光志と白川一朗が\n口論していたという目撃証言あり。\n目撃者は三浦の上司である近藤克美。\nしかしライトブルーの従業員は、\n光志と被害者の肩がぶつかって、\n光志が「謝れ」と被害者に迫っていたが、\n白川一朗は軽くいなして去っていった。\n口論という程ではなかったと証言している。\n近藤と従業員の証言に食い違いが見られる。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0549",
+  "ja": "朝露は昔弁護士で、白川グルー\nプの顧問弁護士だったが、現在\nは弁護士を辞めて探偵になって\nいる。弁護士を辞めた理由は不\n明。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0550",
+  "ja": "首都タクシーセンターで問い合\nわせした結果、光志らしき人物\nを乗車させた形跡が存在しなか\nった。もしかしたらそのタクシ\nーは無許可営業車（白タク）の\n可能性がある。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0551",
+  "ja": "銃声が店内に鳴り清いた。しか\nし犯行現場であるＶＩＰルーム\nは防音仕様。もしかしたら扉を\n開けて犯行を行ったのではない\nか？",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0552",
+  "ja": "光志が今のアパートに引っ越す時に\n呼んだ引っ越し屋。\nテキパキとこなすプロの技が自慢。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0553",
+  "ja": "ＶＩＰルームは秘匿性の高い会\n議に使われることもあり、防音\n仕様となっていた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0554",
+  "ja": "母が亡くなった時に、母が大切\nにしていたと思われるものをま\nとめて入れておいた段ボール箱\n。引っ越しする際に、引っ越し\n屋がガムテープで補強してくれ\nた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0555",
+  "ja": "『オレは白川一朗に狙われている。\nもしオレになにかあったら……\nそれがどれだけ自然に\n見えるものであっても、\n白川の手によるものだと思ってほしい』\nと書かれている。\n　\nまた、白川一朗がかつて心臓病を\n患っていたらしいことを示す記述がある。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0556",
+  "ja": "近藤のねつ造Ｖ２",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0557",
+  "ja": "今回の事件の被害者。\n住宅メーカーである白川グループの代表で、\n日本トップ企業にした辣腕（らつわん）。\n　\n以前は仕事第一の人間だったらしいが、\n最近は家族サービスを優先していたらしい。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0558",
+  "ja": "事件の凶器である拳銃。\n光志の指紋がついており、\n店外のゴミ箱に棄てられていた。\n　\n拳銃は日本国内に流通していない。\n拳銃を手に入れることは極めて難しいため、\n今回の事件は計画殺人と考えられる。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0559",
+  "ja": "事件当日、光志と白川一朗が\n口論していたという目撃証言あり。\n　\nしかし目撃者の一人、ライトブルーの従業員は\n光志と被害者の肩がぶつかって、\n光志が「謝れ」と被害者に迫っていたが、\n白川一朗は軽くいなして去っていった。\n口論という程ではなかったと証言している。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0560",
+  "ja": "白川一朗の自宅。\n　\n家族構成は、妻の『美佐恵』と、\n娘の『のぞみ』の三人だった。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0561",
+  "ja": "光志の母。\n５年前に仕事場である病院の階段から\n転落して死亡した。\n　\nその時、心臓のドナーになっている。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0562",
+  "ja": "白川一朗が代表を務める白川グループ各企業の\n本社が入っているビル。\n定休日は月曜日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0563",
+  "ja": "光志が所属している水谷探偵事務所。\n定休日は日曜日。\n午前は調査に出かけていることが多い。\n　\n奥には茜と葵が通っている桜蔭高校がある。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0564",
+  "ja": "光志の上司。\nサッパリしていて同性から慕われるタイプ。\n鋭い推理力を持っていて、関係者から\n一目置かれている。\n　\nかつては白川グループの顧問弁護士をしていたが、\n病気を理由に解雇され、弁護士を辞めてしまった。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0565",
+  "ja": "ライトブルーの入り口の目の前にある\nカウンター。\n　\n営業時間は１７時から。\n水曜が定休日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0566",
+  "ja": "木曜が休業日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0567",
+  "ja": "２３時過ぎにライトブルーに入り、\nそのままＶＩＰルームへ。\nそこで１時間弱くらい白川一朗と話したあと、\nライトブルーから徒歩５分ほどの場所にある\nゲームセンターに立ち寄ったとのこと。\nゲームセンターの店員が目撃し、\nまた水無月が壊したレバーの修理を\n依頼しているが、\n時間まではハッキリしていない。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0568",
+  "ja": "水谷朝露が現在も通院している病院。\nそして、光志の母・佳代が生前に\n看護師として働いていた病院でもある。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0569",
+  "ja": "白川一朗の弟。\nまた、朝露の元恋人でもある。\n　\n２００２年に腎臓移植手術のために\n渡欧したが、手術は失敗し死亡。\nその時、真二の心臓は一朗に移植された。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0570",
+  "ja": "白川一朗の弟で、白川ハウジングの元副社長。\nまた、朝露の元恋人でもある。\n　\n２００２年に腎臓移植手術のために\n渡欧したが、手術は失敗し死亡。\nその時、真二の心臓は一朗に移植された。\n被害者とは対照的な性格だったらしい。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0571",
+  "ja": "事務所の鍵",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x109800",
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 4
+ },
+ {
+  "id": "u0572",
+  "ja": "光志の取調を担当している刑事。\n捜査一課ナンバーワンの切れ者らしい。\n事件解決率９９パーセントと噂されている。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0573",
+  "ja": "白川一朗の娘。\nしかし母親は美佐恵ではなく、自殺した安代。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0574",
+  "ja": "被害者の妻である白川美佐恵と\n光志の母親である斉藤佳代はよ\nく似ているが、曾租父の代まで\n遡っても血縁関係はない。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0575",
+  "ja": "リフォームを施工したのは、白\n川ハウジング。モニター契約で\n、無料でリフォームしてもらっ\nた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0576",
+  "ja": "銃声はＶＩＰルームのスピーカ\nーから再生されたものと推測。\nその結果、銃声が聞こえた時間\nが殺害事件ではないと推理。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0577",
+  "ja": "真犯人がＶＩＰルーム周りのド\nアの指紋を消したのは、真犯人\n自身の指紋を消す目的ではなく\n、光志の指紋がついていない違\n和感を無くすためであると推理。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0578",
+  "ja": "トイレで肩がぶつかって、光志\nが「謝れ」と被害者に迫ってい\nたが、被害者は軽くいなして去\nっていっただけと、ライトブル\nーの従業員が証言。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0579",
+  "ja": "ＶＩＰルームは秘匿性の高い会\n議に使われることもあり、防音\nしようとなっていた。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0580",
+  "ja": "事件の第一発見者。\n銃声が聞こえてすぐに駆け付けたが、\nその時には既に犯人の姿はなかったと証言。\n三浦正信の上司で捜査一課の課長。\n　\n白川一朗、沼崎栄太郎とは高校の同級生。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0581",
+  "ja": "近藤のねつ造Ｖ３",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0582",
+  "ja": "今回の事件の被害者。\n住宅メーカーである白川グループの代表で、\n日本トップ企業にした辣腕（らつわん）。\n以前は仕事第一の人間だったらしいが、\n最近は家族サービスを優先していたらしい。\n　\n２００２年に白川真二の心臓を移植した。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0583",
+  "ja": "土日は休業日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0584",
+  "ja": "火・日が休業日。午後は調査に\n出かけていることが多い。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0585",
+  "ja": "光志の上司。\nサッパリしていて同性から慕われるタイプ。\n鋭い推理力を持っていて、関係者から\n一目置かれている。\nかつては白川グループの顧問弁護士をしていたが、\n病気を理由に解雇され、弁護士を辞めてしまった。\n　\n本名は『吉本澄香』で白川真二との間にできた\n『吉本ユミ』という娘がいる。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0586",
+  "ja": "営業時間は１６～２５時。水曜\nが定休日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0587",
+  "ja": "水谷朝露が現在も通院している病院。\nそして、光志の母・佳代が生前に\n看護師として働いていた病院でもある。\n　\n休診は土曜日の午後と日曜日。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10c120",
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 3
+ },
+ {
+  "id": "u0588",
+  "ja": "光志の取調を担当している刑事。\n捜査一課ナンバーワンの切れ者らしい。\n事件解決率９９パーセントと噂されている。\n　\n直前の事件で組織捜査を逸脱してしまい、\n今事件では自ら捜査に赴くことを\n禁止されているらしい。",
+  "kind": "record",
+  "width": 23,
+  "max_lines": 10,
+  "tables": [
+   "0x10e604",
+   "0x110a00"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0589",
+  "ja": "ライトブルー",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x112dfc",
+   "0x116b1c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0590",
+  "ja": "フォレストハイム",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x112dfc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0591",
+  "ja": "タクシーセンター",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x112dfc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0592",
+  "ja": "ゲームセンター",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x112dfc"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0593",
+  "ja": "なにもしない",
+  "kind": "line",
+  "width": 6,
+  "max_lines": 1,
+  "tables": [
+   "0x112dfc",
+   "0x112e8c"
+  ],
+  "uses": 2
+ },
+ {
+  "id": "u0594",
+  "ja": "身体検査\n逮捕されて警察署に連れてこられると、\nまず、すべての衣服を脱がされ、\n財布の中身まですべてチェックされる。\nその上で身長と体重を量り、指紋を採取される。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0595",
+  "ja": "線条痕\n拳銃の砲身の内部にはらせん状の溝があり、\nそこから発砲される弾丸には\nそれぞれ固有の傷痕が残る。\nその傷痕のことを線条痕と呼ぶ。\n線条痕と砲身の内部を照合することで\nどの拳銃から発射された弾丸なのかを\n特定することが可能になる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0596",
+  "ja": "引き当たり\n犯罪が発生した場所において\n証拠を得るために調査を行う現場検証のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0597",
+  "ja": "勾留請求\n被疑者の身柄送検を受けた検察官が\nその後も継続して被疑者を拘束する必要が\nあると認める場合、裁判官に対して\n２４時間以内に勾留請求を行う。\n裁判官がその請求を認めると、勾留期間として\n１０日間が認められる。やむを得ない場合は、\n更に１０日以内の延長が認められる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0598",
+  "ja": "逮捕\n刑事事件が発生した場合、\n犯人と思われる人物（＝被疑者）を\n逃亡及び証拠等の隠滅を防止するために\n強制的に身柄を拘束すること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0599",
+  "ja": "逮捕状\n刑事訴訟法第１９９条に基づき、\n被疑者逮捕のため、検察並びに\n警察等の請求に基き、\n裁判官が発付する令状のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0600",
+  "ja": "弁護士\n弁護士法等によって規定された資格を有する\n各種の法律に関する事務を行う者のこと。\n　\nこのゲーム内では主に裁判で被告に\n有利になるように弁護する者を指している。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0601",
+  "ja": "刑事\n日本において刑事という職種は存在せず、\n警察官のうち、私服で捜査活動を\n行うものの俗称。『デカ』ともいう。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0602",
+  "ja": "被害者\n他人の不法行為や犯罪行為によって、\n被害を受けた者。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0603",
+  "ja": "被疑者\n刑事事件上で、犯人と疑われている起訴前の者。\n起訴後は被告人となる。\n一般的には容疑者とも呼ばれている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0604",
+  "ja": "殺害現場\n殺人事件が発生した場所。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0605",
+  "ja": "留置場\n警察署に付属する施設で、\n警察官によって逮捕、\n拘束された者を一時的に収容する場所。\n検察官によって逮捕、\n拘束された者は拘置所に収容される。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0606",
+  "ja": "取調べ\n捜査官が捜査上の必要に応じて、\n容疑者や参考人に供述を求めること。\nこのゲーム中では、通常画面で進行する\n刑事との会話シーンを指す。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0607",
+  "ja": "怖問\n法律上の定義では、裁判所が証人に行うものは\n「証人怖問」、被告人に行うものが「被告人質問」\n（刑訴法３１１条２項）、警察官や検察官が\n被疑者に行うものは、「被疑者に対する取調べ」\nになる。また、一般的な意味として、特に裁判官や\n警察官が取り調べるために質問を発する行為を\n指すこともある。このゲーム中では、\n対面画面で進行する刑事との対決シーンを指す。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0608",
+  "ja": "接見\n身柄拘束されている被疑者や被告人と\n面会すること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0609",
+  "ja": "検察庁\n検察官の事務を統括する官署。\n【最高検察庁】【高等検察庁】【地方検察庁】\n【区検察庁】があり、それぞれ\n【最高裁判所】【高等裁判所】\n【地方裁判所・家庭裁判所】【簡易裁判所】に\n対応して設置されている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0610",
+  "ja": "検事\n検察官の階級の一つで検事長の下、副検事の上。\nまた、この作品内の通り、\n検察官の通称としても用いられる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0611",
+  "ja": "警察署\n都道府県警察の下部機構で、\n定められた管轄区城内で警察の仕事を扱う官署。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0612",
+  "ja": "情報操作\nある者に有利、\nまたは、ある者に不利になるように、\n情報をねじ曲げて提供する行為。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0613",
+  "ja": "いとこ\n親同士が兄弟である、子どもと子どもの関係。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0614",
+  "ja": "はとこ\n親同士がいとこである、子どもと子どもの関係。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0615",
+  "ja": "寃罪\n無実の罪。濡れ衣。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0616",
+  "ja": "非通知\n発信側の電話番号を通知させずに\n電話を掛けること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0617",
+  "ja": "ボイスチェンジャー\n声色を変化させることができる特別な機械。\nこの機械を使うことにより、\n女性が男性のような声を発生させたり、\n大人が子どものような声を発生させることが\n可能となる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0618",
+  "ja": "顧問弁護士\n個人や団体で顧問となっている弁護士。\nゲーム内では特に月・年単位で一定金額を\n受領し、企業の法務サポートや相談役を\n務めている弁護士を指す。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0619",
+  "ja": "探偵\n依頼人から依頼された内容に従い、\n主に人物調査や紛失物の捜索等を行うことを\n職業とする者。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0620",
+  "ja": "警察\n国民の生命・身体・財産の保護、\n犯罪の予防・捜査、被疑者の逮捕、\n交通の取り締まりなどの治安維持を目的とした\n活動を静行する行往、組織の総称。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0621",
+  "ja": "事情聴取\n事情を聞くこと。\nこのゲーム内では、特に取調べの意味を持つ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0622",
+  "ja": "国家公務員試験\n国家公務員法に基づいて、\n適任と認められたものを選抜することを\n目的とした試験のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0623",
+  "ja": "留置\n被疑者や被告人といった、\n刑罰が確定していない者を\n一定の場所に拘束すること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0624",
+  "ja": "法曹界\n弁護士、検察官、裁判官等、\n法律に携わる者の世界。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0625",
+  "ja": "刑事事件\n刑事法が適用される事件のこと。\n刑罰の対象となる犯罪行為によって\n引き起こされた事件のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0626",
+  "ja": "民事事件\n私法（民法や商法等、個人の権利・義務等、\n私人間の法律関係を規律する法規範）が\n適用される事件のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0627",
+  "ja": "ドナー\n臓器、骨髄移植における、臓器、骨髄の提供者。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0628",
+  "ja": "レシピエント\n臓器、骨髄移植における、臓器、骨髄を\n受け取った人。\nもしくは、受け取りを希望する人。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0629",
+  "ja": "心臓移植\n脳死等によって亡くなった人の心臓を、\n重大な心疾患患者に移植すること。\nドナーは脳死判定によって、\n心臓は機能しているが脳が\n機能停止している者が対象となり、\n脳死判定には厳しい基準が設けられている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0630",
+  "ja": "勾留\n裁判官または裁判所が、被疑者や被告人を\n一定の場所にとどめておくこと。\n　\n刑事訴訟法２０８条１項では、\n被疑者に対する勾留期間が勾留請求の日から\n１０日間以内となっており、この期間内に起訴\nしない場合は直ちに釈放することを定めている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0631",
+  "ja": "勾留延長\n刑事訴訟法２０８条２項によると、\n裁判官は、やむを得ない事由があると\n認めるときは、検察官の請求により\n勾留期間を延長することができる。\nこれを勾留延長という。\n勾留期間の延長は１０日間以内となっている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0632",
+  "ja": "濡れ衣\n身に覚えのない罪のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0633",
+  "ja": "司法試験\n裁判官・検察官・弁護士になるために\n必要な学識、およびその応用能力を\n判定する国家試験。\n合格者は司法修習生となる資格を得る。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0634",
+  "ja": "共犯\n複数の者が協力して一つの犯罪を行うこと。\nまた、その関与者。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0635",
+  "ja": "情報屋\n己が持っている情報と等価の金銭等を\n交換することを生業としている者のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0636",
+  "ja": "ＴＰＯ\nＴｉｍｅ（時）、Ｐｌａｃｅ（場所）、\nＯｃｃａｓｉｏｎ（場合）の頭文字。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0637",
+  "ja": "ミステリー\n神秘的、不可思議なこと。\n狭義的意味では推理小説・物語全般をこう呼ぶ。\n愛好家内では、特に犯人が分からない状態で\n物語が進行するタイプをミステリーと呼び、\n犯人が分かっている状態で物語が進行する\nタイプをサスペンスと呼ぶことが多い。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0638",
+  "ja": "娑婆\n刑務所などで自由を束縛されている者が、\n一般社会を指して呼ぶ俗称。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0639",
+  "ja": "刑罰\n犯罪を行った者に対する、法律上の制裁。\n殺人事件の場合は、\n『死刑又は無期若しくは五年以上の懲役に処する』\n（刑法１９９条）の刑罰が科せられることになる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0640",
+  "ja": "送検\n検察官送致を指す。\n警察機関で身柄を拘束している被疑者を\n検察官に送致すること。\n　\n警察が逮捕した被疑者を勾留しておけるのは\n４８時間以内であり、\n速やかに書類及び証拠物とともに\n事件を検察官に送致しなければならない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0641",
+  "ja": "スケープゴート\n他人の罪を背負わされて、犠牲になる人のこと。\nいけにえ。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0642",
+  "ja": "無期懲役\n刑期を定めない懲役刑。\n現在の日本では、死刑に次ぐ重刑とされている。\n但し、一生に渡って刑務所に\n収容されるのではなく、おおよそ２０～４０年で\n仮釈放が認められることがある。\nしかしその場合でも、あくまで仮釈放であり、\n保護観察が付き、刑期は続いている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0643",
+  "ja": "告発\n犯人および被疑者以外の第三者が\n捜査機関に対し犯罪事実を申告して、\nその捜査と被疑者の訴追を求めること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0644",
+  "ja": "自白\n罪や秘密を自ら告白すること。\nまたは、相手が主張する、\n自分に不利益な事実を認めること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0645",
+  "ja": "ポータルサイト\nインターネットのウェブサイトに接続する際に\n入り口となるウェブサイトで、検索や\nニュースやオンライン辞書といった情報を\n総合的に提供しているサイトのこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0646",
+  "ja": "筆跡鑑定\n個人によってクセのある\n文字や数字の書き方を分析し、\n別の時期に書かれた文章や文字が\n同一人物によって書かれたものであるのか\n検証すること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0647",
+  "ja": "有罪\n裁判所の判決によって、犯罪事実が認められ、\n刑事責任の存在が認められること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0648",
+  "ja": "起訴\n刑事訴訟法上、検察官が公訴を提起すること。\nつまり、検察官が被疑者の犯罪に対して、\n裁判所に裁判を求める行為のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0649",
+  "ja": "指紋\n人間の指の内側にある、\n多くの線からできている模様。\n人ごとに異なり、終生変わらないので、\n個人の識別に利用される。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0650",
+  "ja": "人権\n人間が生来持っている\n生命・自由・平等などに関する権利。\n基本的人権。\n『犯罪者には人権はない』というのは誤り。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0651",
+  "ja": "偽名\n本名を隠すことを目的とした、いつわりの名。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0652",
+  "ja": "脳死\n脳の機能が停止し、\n回復の見込みが無い状態のこと。\n脳死判定の基準は各国によって異なる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0653",
+  "ja": "パンドラの箱\nギリシャ神話に登場する、\nあらゆる厄災を閉じこめたと言われる箱。\n転じて、ある程度意図的に静観していた物や\n出来事に対し、手を付けることを\n『パンドラの箱を開ける』と言う。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0654",
+  "ja": "免疫抑制剤\n生体の免疫作用を抑制する薬剤。\n自己免疫疾患の治療や\n臓器移植時の拒絶反応の抑制に用いられる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0655",
+  "ja": "ハメ技\n主に対戦格闘ゲームにおいて、相手キャラクターの\n反撃を許さずに、一方的に勝利できる一連の技を\nハメ技という。ハメられた側は\n一方的に倒されるのを待つしかないという\n屈辱的な状態になるが、これはゲーム開発側も\n想定していなかったゲームバランス調整の\n隙である場合が多く、愛好家の間では\n反則として暗黙のルールとなっている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0656",
+  "ja": "義魔の証明\nある事実を否定するためには、すべての事実の\n可能性を否定しなければならないという不可能に\n近い命題の証明のこと。例えば、「アイルランドに\n蛇はいる」ということを証明するためには、アイル\nランドで蛇を１匹捕まえて来ればよいが、「アイル\nランドに蛇はいない」ということを証明するために\nはアイルランド全土を探査しなくてはならない。\n非常に困難であり、事実上不可能である。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0657",
+  "ja": "押収\n裁判所や捜査機関が、\n証拠品や没収すべき物を取り上げること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0658",
+  "ja": "２４時間営業\nアミューズメント施設におけるゲーム機の営業は、\n事業所の床面積に対して機器の設置面積の占める\n割合が一定の比率に達すると、\n專業店であるゲームアーケードと\n同様風俗営業適正化法の適用を受ける。\nその場合、２４時を超えて営業することができない。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0659",
+  "ja": "裁判員制度\n市民が刑事裁判に参加し、\n裁判官とともに無罪・有罪、量刑を定める制度。\n選挙人名簿登録者の中から無作為に選ばれる。\n平成２１年５月２１日に施行予定となっているが、\nこの作品内では１年予定を遅らせている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0660",
+  "ja": "心証\n人の言葉や言動から受ける印象のこと。\nまた、特に訴訟事件の審理において、\n認定する事実に対する裁判官の内心的判断のこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0661",
+  "ja": "減軽\n裁判官が被告人の自首や自白、\n情状・心身の状態などにより刑を軽くすること。\n刑法第６６条に「犯罪の情状に\n九量すべきものがあるときは、\nその刑を減軽することができる」とあり、\nこれによって裁判官の九量減軽が認められている。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0662",
+  "ja": "立会人\n立会人とは後日の証拠にするために、\n証人としてその場に立ち会う人のこと。\n証拠隠滅やアリバイ工作等を防ぐために、\n弁護士との接見以外には、\n職員が立ち会うことが通常である。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0663",
+  "ja": "汚職\n公職にある者が、地位や職権を利用して\n収賄等の不正な利益を得ること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0664",
+  "ja": "秘匿\n人に知られないように隠しておくこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0665",
+  "ja": "現場保存\n事件が起きた現場を、\n事件発生時の状態に留めておくこと。\n「げんばほぞん」「げんじょうほぞん」と読む。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0666",
+  "ja": "情報\nこのゲームでは、\n情報はクルー（ｃｌｕｅ）としてまとめられる。\n【ｃｌｕｅ（手がかり、ヒントの意）】",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0667",
+  "ja": "調書\n訴訟法に基づき、\n事件の経過・内容について記載された公文書。\n裁判所や捜査機関が作成する。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0668",
+  "ja": "私選弁護人\n刑事事件で被疑者・被告人が自ら選任する弁護士。\n一方、貧困等の理由で、弁護士を選任出来ない場合、\n国が弁護士をつけることになる。\nこの場合の弁護士を国選弁護人という。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0669",
+  "ja": "傷害致死\n殺意（殺そうとする意思）はないが\n他人に傷害を加えた結果、\nその人を死亡させてしまうこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0670",
+  "ja": "罪状認否\n刑事裁判上で、\n被告人が起訴状に記載されている公訴事実について\n認めるか否定するかを発言すること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0671",
+  "ja": "殺人未遂\n殺意（相手を殺そうとする意思）を持って\n他人を威嚇、または傷害を加え、\n相手が死ななかった場合。\n無傷だった場合も含む。\n傷害を与えたことが原因で相手が\n死亡してしまった場合は殺人となる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0672",
+  "ja": "釈放\n拘束されていた者を解放し、自由にしてやること。\n特に、被疑者・被告人・在監者の拘禁を解くこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0673",
+  "ja": "隠蔽工作\n不利になる証拠や物事を覆い隠してしまうこと。\nまた、偽りの証拠を揃えたりすること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0674",
+  "ja": "嫌疑不十分\n容疑が固まらず、\n起訴しても有罪に持ち込むのが難しいこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0675",
+  "ja": "誤認逮捕\n警察や捜査機関が逮捕した人物が無実であり、\nその者を逮捕した行為が誤りであったこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0676",
+  "ja": "人工透析\n腎臓機能が失われた者が、尿毒症を防止するために\n人工的な方法で血被中の余分な老廃物、水分、\n電解質等を除去すること。\n個人差はあるが、人工透析を受ける者は、\n１回４時間、週３回程度の通院が必要となる。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0677",
+  "ja": "贖罪\n犠牲を払ったり代償行為を行うことによって、\n犯した罪を償うこと。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0678",
+  "ja": "詭弁\n道理に合わないことや、間違っていることを、\nあたかも正しいことのように、\nもっともらしくこじつけること。",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0679",
+  "ja": "緊急逮捕\n死刑又は無期若しくは長期三年以上の懲役若しくは\n禁錮にあたる罪を犯したことを疑うに足りる充分な\n理由がある場合で、急速を要し、裁判官の逮捕状を\n要求することができない場合は、その理由を告げた\n上で逮捕令状なしで緊急逮捕することができる。\n但し、緊急逮捕した後逮捕状が直ちに出ない場合は、\n釈放しなければならない。（刑事訴訟法２１０条）",
+  "kind": "record",
+  "width": 24,
+  "max_lines": 10,
+  "tables": [
+   "0x112eac"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0680",
+  "ja": "１１月１１日【事件の発端】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0681",
+  "ja": "１１月１２日【不測の再会】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0682",
+  "ja": "１１月１３日【無意義な談】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0683",
+  "ja": "１１月１４日【記憶の境界】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0684",
+  "ja": "１１月１５日【疑惑の取引】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0685",
+  "ja": "１１月１６日【届かぬ想い】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0686",
+  "ja": "１１月１７日【希望と憂鬱】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0687",
+  "ja": "１１月１８日【因縁の連鎖】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0688",
+  "ja": "１１月１９日【記憶の継承】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0689",
+  "ja": "１１月２０日【心的な損傷】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0690",
+  "ja": "１１月２１日【運命の振子】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0691",
+  "ja": "１１月２２日【予定の調和】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0692",
+  "ja": "１１月２３日【消えた証拠】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0693",
+  "ja": "１１月２４日【無力の謝罪】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0694",
+  "ja": "１１月２５日【泣き寢入り】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0695",
+  "ja": "１１月２６日【独断と偏見】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0696",
+  "ja": "１１月２７日【融和の兆し】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0697",
+  "ja": "１１月２８日【告発の行先】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0698",
+  "ja": "１１月２９日【意外な真実】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0699",
+  "ja": "１１月３０日【過去の清算】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0700",
+  "ja": "１２月１日【最後の疾走】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0701",
+  "ja": "１２月２日【凡ての結末】",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x116310"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0702",
+  "ja": "調査場所：白川家",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0703",
+  "ja": "調査場所：白川ビル",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0704",
+  "ja": "調査場所：水谷探偵事務所",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0705",
+  "ja": "調査場所：ライトブルー",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0706",
+  "ja": "調査場所：沼崎法律事務所",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0707",
+  "ja": "調査場所：フォレストハイム",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0708",
+  "ja": "調査場所：タクシーセンター",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0709",
+  "ja": "調査場所：宮上大付属病院",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0710",
+  "ja": "調査場所：ゲームセンター",
+  "kind": "line",
+  "width": 13,
+  "max_lines": 1,
+  "tables": [
+   "0x1165c4"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0711",
+  "ja": "２４時間営業",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0712",
+  "ja": "ＴＰＯ",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0713",
+  "ja": "義魔の証明",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0714",
+  "ja": "いとこ",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0715",
+  "ja": "隠蔽工作",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0716",
+  "ja": "寃罪",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0717",
+  "ja": "押収",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0718",
+  "ja": "汚職",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0719",
+  "ja": "起訴",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0720",
+  "ja": "詭弁",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0721",
+  "ja": "共犯",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0722",
+  "ja": "緊急逮捕",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0723",
+  "ja": "偽名",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0724",
+  "ja": "警察",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0725",
+  "ja": "警察署",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0726",
+  "ja": "刑事",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0727",
+  "ja": "刑事事件",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0728",
+  "ja": "刑罰",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0729",
+  "ja": "嫌疑不十分",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0730",
+  "ja": "検察庁",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0731",
+  "ja": "検事",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0732",
+  "ja": "減軽",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0733",
+  "ja": "現場保存",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0734",
+  "ja": "勾留",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0735",
+  "ja": "勾留延長",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0736",
+  "ja": "勾留請求",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0737",
+  "ja": "告発",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0738",
+  "ja": "国家公務員試験",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0739",
+  "ja": "誤認逮捕",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0740",
+  "ja": "顧問弁護士",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0741",
+  "ja": "裁判員制度",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0742",
+  "ja": "殺害現場",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0743",
+  "ja": "殺人未遂",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0744",
+  "ja": "罪状認否",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0745",
+  "ja": "私選弁護人",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0746",
+  "ja": "司法試験",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0747",
+  "ja": "指紋",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0748",
+  "ja": "釈放",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0749",
+  "ja": "娑婆",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0750",
+  "ja": "傷害致死",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0751",
+  "ja": "贖罪",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0752",
+  "ja": "心証",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0753",
+  "ja": "心臓移植",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0754",
+  "ja": "身体検査",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0755",
+  "ja": "事情聴取",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0756",
+  "ja": "自白",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0757",
+  "ja": "情報",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0758",
+  "ja": "情報屋",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0759",
+  "ja": "情報操作",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0760",
+  "ja": "人権",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0761",
+  "ja": "人工透析",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0762",
+  "ja": "怖問",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0763",
+  "ja": "スケープゴート",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0764",
+  "ja": "接見",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0765",
+  "ja": "線条痕",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0766",
+  "ja": "送検",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0767",
+  "ja": "逮捕",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0768",
+  "ja": "逮捕状",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0769",
+  "ja": "立会人",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0770",
+  "ja": "探偵",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0771",
+  "ja": "調書",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0772",
+  "ja": "取調べ",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0773",
+  "ja": "ドナー",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0774",
+  "ja": "濡れ衣",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0775",
+  "ja": "脳死",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0776",
+  "ja": "はとこ",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0777",
+  "ja": "ハメ技",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0778",
+  "ja": "パンドラの箱",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0779",
+  "ja": "引き当たり",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0780",
+  "ja": "被害者",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0781",
+  "ja": "被疑者",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0782",
+  "ja": "非通知",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0783",
+  "ja": "秘匿",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0784",
+  "ja": "筆跡鑑定",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0785",
+  "ja": "弁護士",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0786",
+  "ja": "法曹界",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0787",
+  "ja": "ボイスチェンジャー",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0788",
+  "ja": "ポータルサイト",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0789",
+  "ja": "ミステリー",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0790",
+  "ja": "民事事件",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0791",
+  "ja": "無期懲役",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0792",
+  "ja": "免疫抑制剤",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0793",
+  "ja": "有罪",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0794",
+  "ja": "留置",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0795",
+  "ja": "留置場",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0796",
+  "ja": "レシピエント",
+  "kind": "line",
+  "width": 9,
+  "max_lines": 1,
+  "tables": [
+   "0x1166a8"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0797",
+  "ja": "辞典について",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0798",
+  "ja": "クルーについて",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0799",
+  "ja": "怖問について",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0800",
+  "ja": "調査依頼について",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0801",
+  "ja": "調査について",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0802",
+  "ja": "情報集約について",
+  "kind": "line",
+  "width": 8,
+  "max_lines": 1,
+  "tables": [
+   "0x116ab0"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0803",
+  "ja": "美佐恵と佳代は瓜二つ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0804",
+  "ja": "白川ハウジング",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0805",
+  "ja": "白川設計",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0806",
+  "ja": "白川不動産",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0807",
+  "ja": "白川悟？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0808",
+  "ja": "関係者のアリバイ崩壊",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0809",
+  "ja": "タクシーに乗せた",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0810",
+  "ja": "事件発生時のＢＧＭ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0811",
+  "ja": "防犯カメラ？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0812",
+  "ja": "指紋を消した理由",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0813",
+  "ja": "プレイヤー台の傷",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0814",
+  "ja": "携帯オーディオと接続？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0815",
+  "ja": "ＶＩＰルームのＢＧＭ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0816",
+  "ja": "プレイヤーの機能",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0817",
+  "ja": "プレイヤーのリモコン",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0818",
+  "ja": "口論（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0819",
+  "ja": "○○こうじ？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0820",
+  "ja": "白タクに乗車",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0821",
+  "ja": "扉を開けた犯行",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0822",
+  "ja": "引っ越し屋",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0823",
+  "ja": "拳銃の違和感",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0824",
+  "ja": "一朗と朝露の関係？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0825",
+  "ja": "法子は期待のホープ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0826",
+  "ja": "幸司は白川設計復帰",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0827",
+  "ja": "オートロック",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0828",
+  "ja": "指紋を消した跡",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0829",
+  "ja": "段ボールの荷物",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0830",
+  "ja": "凶器は拳銃",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0831",
+  "ja": "酒に酔い潰れていた",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0832",
+  "ja": "プレイヤー台の傷（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0833",
+  "ja": "白川ビル前",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0834",
+  "ja": "白川ビル内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0835",
+  "ja": "応接コーナー",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0836",
+  "ja": "水谷探偵事務所前",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0837",
+  "ja": "水谷探偵事務所内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0838",
+  "ja": "ライトブルー入口",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0839",
+  "ja": "ライトブルー事務所内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0840",
+  "ja": "ライトブルー廊下１",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0841",
+  "ja": "ライトブルー廊下２",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0842",
+  "ja": "ライトブルー・トイレ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0843",
+  "ja": "ＶＩＰルーム前",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0844",
+  "ja": "沼崎法律事務所内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0845",
+  "ja": "法律事務所・所長室",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0846",
+  "ja": "浩志のアパート外",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0847",
+  "ja": "浩志のアパート中",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0848",
+  "ja": "タクシーセンター外",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0849",
+  "ja": "タクシーセンター内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0850",
+  "ja": "ライトブルー事務所前",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0851",
+  "ja": "安代の自殺（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0852",
+  "ja": "朝露と清香が口論",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0853",
+  "ja": "沼崎と安代の関係",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0854",
+  "ja": "朝露の曖昧なアリバイ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0855",
+  "ja": "水無月のアリバイ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0856",
+  "ja": "幸司のアリバイ（完）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0857",
+  "ja": "安代の不倫と自殺",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0858",
+  "ja": "幸司のアリバイ（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0859",
+  "ja": "幸司のリベンジ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0860",
+  "ja": "沼崎の弱み（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0861",
+  "ja": "朝露のアリバイ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0862",
+  "ja": "沼崎の弱み",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0863",
+  "ja": "朝露が握る情報",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0864",
+  "ja": "播磨直正（３）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0865",
+  "ja": "沼崎のアリバイ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0866",
+  "ja": "一朗の一目惚れ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0867",
+  "ja": "朝露の移植手術",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0868",
+  "ja": "播磨直正（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0869",
+  "ja": "朝露とゆみの関係？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0870",
+  "ja": "真二の移植手術",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0871",
+  "ja": "ドナーの記憶",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0872",
+  "ja": "安代の自殺",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0873",
+  "ja": "沼崎と安代が不倫",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0874",
+  "ja": "幸司の復帰も計画的？",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0875",
+  "ja": "朝露と清香が姉妹",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0876",
+  "ja": "社長室",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0877",
+  "ja": "桜蔭高校職員室",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0878",
+  "ja": "宮上大付属病院前",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0879",
+  "ja": "宮上大付属病院内",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0880",
+  "ja": "病院階段",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0881",
+  "ja": "白川真二（２）",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0882",
+  "ja": "幸司の復帰も計画的",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ },
+ {
+  "id": "u0883",
+  "ja": "近藤はシロ",
+  "kind": "line",
+  "width": 11,
+  "max_lines": 1,
+  "tables": [
+   "0x116b1c"
+  ],
+  "uses": 1
+ }
+]

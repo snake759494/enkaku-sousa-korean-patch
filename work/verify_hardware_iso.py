@@ -175,6 +175,8 @@ def main() -> None:
     parser.add_argument("--ledger", type=Path, default=ROOT / "work" / "container_ko.json")
     parser.add_argument("--system-version", default=None,
                         help="allow PARAM.SFO PSP_SYSTEM_VER to change to this value")
+    parser.add_argument("--plain-executable", type=Path, default=None,
+                        help="patched plain ELF expected in both BOOT.BIN and EBOOT.BIN (v3.17+)")
     parser.add_argument("--runtime-report", type=Path, default=None,
                         help="runtime reference/alignment report for the patched stream")
     args = parser.parse_args()
@@ -198,10 +200,20 @@ def main() -> None:
         new_payload = record_payload(patched, new_records[key])
         if path == "/PSP_GAME/PARAM.SFO" and args.system_version is not None:
             validate_param_sfo_version(old_payload, new_payload, args.system_version)
+        elif path.endswith("BOOT.BIN") and args.plain_executable is not None:
+            # v3.17 replaces the encrypted EBOOT.BIN with the patched plain ELF (zero-padded
+            # to the original record size) and BOOT.BIN with the same ELF.
+            elf = args.plain_executable.read_bytes()
+            assert_equal(f"{path} is a plain ELF", new_payload[:4], b"\x7fELF")
+            assert_equal(f"{path} holds the patched executable", new_payload[:len(elf)], elf)
+            assert_equal(f"{path} padding is zero", new_payload[len(elf):],
+                         bytes(len(new_payload) - len(elf)))
         else:
             assert_equal(f"{path} unchanged", new_payload, old_payload)
 
     replace_paths = ["/PSP_GAME/USRDIR/0000", "/PSP_GAME/USRDIR/0001"]
+    if args.plain_executable is not None:
+        replace_paths += ["/PSP_GAME/SYSDIR/EBOOT.BIN", "/PSP_GAME/SYSDIR/BOOT.BIN"]
     if args.system_version is not None:
         replace_paths.insert(0, "/PSP_GAME/PARAM.SFO")
     ranges = []

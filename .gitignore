@@ -30,3 +30,7 @@ dump/
 build/0000_*
 build/0001_*
 build/PARAM_SFO_*
+build/stream*.bin
+build/BOOT_*
+build/EBOOT_*
+build/*.xdelta
