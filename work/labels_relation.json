@@ -1,0 +1,267 @@
+{
+ "schema": "enkaku_labels_v1",
+ "note": "Relationship badges on the 人物関係図 (issue #5): white type with a dark edge, as in the original; v1 drew dark type that vanished on the dark chart.",
+ "textures": [
+  {
+   "index": 363,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      87,
+      19
+     ],
+     "ja": "",
+     "ko": "상사와 부하",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 364,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      120,
+      19
+     ],
+     "ja": "",
+     "ko": "옛 상사와 부하",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 365,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      70,
+      19
+     ],
+     "ja": "",
+     "ko": "신뢰 관계",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 366,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      70,
+      19
+     ],
+     "ja": "",
+     "ko": "사제 관계",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 372,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      86,
+      19
+     ],
+     "ja": "",
+     "ko": "대학 친구",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 374,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      83,
+      19
+     ],
+     "ja": "",
+     "ko": "사제 관계?",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 379,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      104,
+      19
+     ],
+     "ja": "",
+     "ko": "고교 동창",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 381,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      69,
+      19
+     ],
+     "ja": "",
+     "ko": "수사 협력",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "index": 382,
+   "font": "serif",
+   "labels": [
+    {
+     "box": [
+      0,
+      0,
+      87,
+      19
+     ],
+     "ja": "",
+     "ko": "선배와 후배",
+     "align": "left",
+     "ink": [
+      250,
+      250,
+      250,
+      255
+     ],
+     "edge": [
+      16,
+      16,
+      16,
+      255
+     ]
+    }
+   ]
+  }
+ ]
+}

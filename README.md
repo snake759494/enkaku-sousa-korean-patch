@@ -1,8 +1,8 @@
-# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.17)
+# 원격수사 ~진실을 향한 23일간~ 한글패치 (v3.18)
 
 PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) 한국어 번역 패치입니다.
 
-대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.17은 실행 파일 안에 있던 정보 일람·사전 본문·단서 획득 알림·시스템 메시지를 한글화한 판입니다(이슈 #3). v3.16의 22일차 마지막 심문 멈춤 수정(이슈 #4)과 v3.15에서 고친 라이트 블루 탐문 멈춤(이슈 #1), 시스템 메뉴 글자 잘림(이슈 #2), 긴 대사가 버튼 바를 덮는 문제(이슈 #3)도 포함합니다. v3.13~v3.16의 세이브를 그대로 이어서 쓸 수 있습니다. v3.12의 실기 부팅 보정(스트림 4바이트 정렬, `PARAM.SFO` 5.00)과 v3.13의 4bpp 이미지 원복은 그대로 포함합니다.
+대사 9,626행과 게임 내 이미지·정적 UI를 한국어로 옮겼습니다. v3.18은 이슈 #5의 자잘한 문제(코우지 대사 넘침, 빠진 이름표, 「구속 N일째」, 인물 관계도, 「남은 N개」)를 고친 판입니다. v3.17은 실행 파일 안에 있던 정보 일람·사전 본문·단서 획득 알림·시스템 메시지를 한글화한 판입니다(이슈 #3). v3.16의 22일차 마지막 심문 멈춤 수정(이슈 #4)과 v3.15에서 고친 라이트 블루 탐문 멈춤(이슈 #1), 시스템 메뉴 글자 잘림(이슈 #2), 긴 대사가 버튼 바를 덮는 문제(이슈 #3)도 포함합니다. v3.13~v3.17의 세이브를 그대로 이어서 쓸 수 있습니다. v3.12의 실기 부팅 보정(스트림 4바이트 정렬, `PARAM.SFO` 5.00)과 v3.13의 4bpp 이미지 원복은 그대로 포함합니다.
 
 ---
 
@@ -24,7 +24,7 @@ PSP 게임 **원격수사 ~真実への23日間~** (Enkaku Sousa, `UCJS10088`) �
 ```
 파일명   Enkaku Sousa Shinjitsu eno 23nichikan.iso
 크기     739,835,904 바이트
-MD5      09df1832d2862ea4c2f8dc9bf1590887
+MD5      8c301a4633839e0757f8bbd8efc0c28c
 ```
 
 Windows에서 확인하는 방법:
@@ -36,7 +36,7 @@ certutil -hashfile "Enkaku Sousa Shinjitsu eno 23nichikan.iso" MD5
 ### 적용
 
 ```
-xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.17.xdelta Enkaku_Korean_v3.17.iso
+xdelta -d -s "Enkaku Sousa Shinjitsu eno 23nichikan.iso" Enkaku_Korean_v3.18.xdelta Enkaku_Korean_v3.18.iso
 ```
 
 xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source에 원본 ISO를 지정하십시오.
@@ -44,10 +44,10 @@ xdeltaUI를 쓰는 경우 **Apply Patch** 탭에서 Patch에 `.xdelta`, Source�
 ### 결과 확인
 
 ```
-파일명   Enkaku_Korean_v3.17.iso
+파일명   Enkaku_Korean_v3.18.iso
 크기     739,835,904 바이트 (원본과 동일)
 MD5      3373c37b53fc7170c5b20e36dde3ad81
-SHA-256  7dce2823541426f05eb84f259425ffd2e2cafc526ceda41862ba49371ddc2367
+SHA-256  76d4be9d508c1093a592e8328695b03e17ca69194e4190a3ca7ad8e5da1947a6
 ```
 
 크기가 원본과 같은 것이 정상입니다. 이 패치는 파일을 추가하거나 옮기지 않고 기존 데이터를 제자리에서 교체합니다.
@@ -155,6 +155,10 @@ ANALYSIS.md      포맷 분석 기록 (한국어)
 ```
 python work/assemble_box_fit.py   # 번역 v7 + build/condense/out_*.json -> translation_ko_v9.tsv (v10은 수도 택시 센터 2행 수정)
 
+python work/assemble_box_fit.py --ko build/translation_ko_v10.tsv \
+    --condensed build/condense/out2_*.json --slots build/korean_slots_v317.json \
+    --all-speakers --labels build/condense/labels_restore.json --out build/translation_ko_v11.tsv
+
 python work/exe_text.py           # 실행 파일 텍스트 단위 추출 -> build/exe_text/units_*.json
 
 python work/check_exe_text.py build/exe_text/out_1.json   # 번역 검사 (out_*.json 각각)
@@ -163,18 +167,29 @@ python work/patch_exe_text.py     # BOOT_v317 / EBOOT_v317, 새 음절을 그린
 
 python work/build_runtime_refs.py \
     --base build/stream1_ko_font_v317.bin \
-    --tsv build/translation_ko_v10.tsv \
+    --tsv build/translation_ko_v11.tsv \
     --slots build/korean_slots_v317.json \
     --reference-corrections build/runtime_reference_supplement_v316.json \
-    --out build/stream1_ko_v317.bin \
-    --report build/runtime_v317_report.json --translation-is-final
+    --out build/stream1_ko_v318.bin \
+    --report build/runtime_v318_report.json --translation-is-final
 
 python work/patch_labels.py --config work/labels_menu.json --clean build/stream0.bin \
     --stream build/stream0_v37.bin --out build/stream0_v314.bin
 
+python work/patch_labels.py --config work/labels_hud2.json --clean build/stream0.bin \
+    --stream build/stream0_v314.bin --out build/stream0_v318.bin    # 구속 N일째
+
+python work/patch_nameplates_v2.py --stream build/stream0_v318.bin --out build/stream0_v318a.bin
+
+python work/patch_labels.py --config work/labels_relation.json --clean build/stream0.bin \
+    --stream build/stream0_v318a.bin --out build/stream0_v318b.bin   # 관계 라벨
+
+python work/patch_atlas_v2.py --stream build/stream0_v318b.bin --clean build/stream0.bin \
+    --out build/stream0_v318c.bin                                    # 남은 N개
+
 python work/rebuild_0000.py --src iso_extract/PSP_GAME/USRDIR/0000 \
-    --plain0 build/stream0_v314.bin --plain1 build/stream1_ko_v317.bin \
-    --chain 64 --out build/0000_v317
+    --plain0 build/stream0_v318c.bin --plain1 build/stream1_ko_v318.bin \
+    --chain 64 --out build/0000_v318
 
 python work/patch_container_text.py --ledger work/container_ko.json \
     --archive 0001 --out build/0001_v313 --chain 64
@@ -182,22 +197,22 @@ python work/patch_container_text.py --ledger work/container_ko.json \
 python work/patch_param_sfo_version.py --src iso_extract/PSP_GAME/PARAM.SFO \
     --out build/PARAM_SFO_v312 --from-version 5.02 --to-version 5.00
 
-python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.17.iso \
+python work/patch_iso_inplace.py --iso "원본.iso" --out Enkaku_Korean_v3.18.iso \
     --replace /PSP_GAME/PARAM.SFO build/PARAM_SFO_v312 \
-    --replace /PSP_GAME/USRDIR/0000 build/0000_v317 \
+    --replace /PSP_GAME/USRDIR/0000 build/0000_v318 \
     --replace /PSP_GAME/USRDIR/0001 build/0001_v313 \
     --replace /PSP_GAME/SYSDIR/EBOOT.BIN build/EBOOT_v317.bin \
     --replace /PSP_GAME/SYSDIR/BOOT.BIN build/BOOT_v317.bin
 
 python work/verify_runtime_alignment.py \
     --original font_extract/script_stream.bin \
-    --patched build/stream1_ko_v317.bin \
-    --report build/runtime_v317_report.json
+    --patched build/stream1_ko_v318.bin \
+    --report build/runtime_v318_report.json
 
 python work/verify_hardware_iso.py --original "원본.iso" \
-    --patched Enkaku_Korean_v3.17.iso --system-version 5.00 \
+    --patched Enkaku_Korean_v3.18.iso --system-version 5.00 \
     --plain-executable build/BOOT_v317.bin \
-    --runtime-report build/runtime_v317_report.json
+    --runtime-report build/runtime_v318_report.json
 ```
 
 ---
@@ -206,6 +221,7 @@ python work/verify_hardware_iso.py --original "원본.iso" \
 
 - **사전·해설의 「해설」 탭 페이지(도움말 그림)는 아직 일본어입니다.** 이 페이지는 4bpp 이미지인데, 이 형식의 픽셀 배치를 아직 확정하지 못했습니다(v3.8~v3.12에서 시도한 결과가 게임 안에서 깨져 되돌림)
 - 사전·해설 화면 왼쪽 위 탭 그림의 글자가 일부 겹쳐 보입니다
+- 나나시바가 유치장을 나가는 장면의 아주 짧은 대사 2줄(「간다.」, 「응, 또 봐!」)은 이름표가 없습니다. 세이브 호환을 위해 각 대사의 바이트 수를 바꿀 수 없는데, 이름표만으로 그 길이를 넘기 때문입니다
 - 일부 대사에 문장 끝 마침표가 빠져 있습니다
 - 일부 대사에 띄어쓰기가 소실된 구간이 있습니다
 - 초벌 번역의 어색한 표현이 남아 있습니다

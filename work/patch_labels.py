@@ -120,6 +120,12 @@ def main() -> None:
         for label in entry["labels"]:
             box = tuple(label["box"])
             ink, edge = ink_colour(px, box)
+            # Thin badge type can fool the erosion test into swapping body and edge, which
+            # draws hollow letters; a label may state its colours outright.
+            if "ink" in label:
+                ink = tuple(label["ink"])
+            if "edge" in label:
+                edge = tuple(label["edge"]) if label["edge"] else None
             # Clearing to (0,0,0,0) is not the same as clearing to nothing.  The quantiser
             # weights alpha four times, and 예/아니요 came out on a grey slab because this
             # palette's clear entry carries a grey RGB while another entry is near-black at

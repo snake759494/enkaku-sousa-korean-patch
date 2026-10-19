@@ -45,14 +45,16 @@ def load_current(path: Path) -> dict[str, str]:
     return {r[0]: r[2] for r in rows if len(r) >= 3}
 
 
-def problems(offset: str, text: str, current: dict[str, str], slots: dict[str, int]) -> list[str]:
+def problems(offset: str, text: str, current: dict[str, str], slots: dict[str, int],
+             label: str | None = None) -> list[str]:
     out = []
     old = current.get(offset)
     if old is None:
         return ["unknown offset"]
     lines = text.split(BS)
-    if lines[0] != old.split(BS)[0]:
-        out.append(f"speaker label changed: {lines[0]!r} != {old.split(BS)[0]!r}")
+    expected = label if label is not None else old.split(BS)[0]
+    if lines[0] != expected:
+        out.append(f"speaker label wrong: {lines[0]!r} != {expected!r}")
     body = lines[1:]
     if len(body) > TEXT_LINES:
         out.append(f"{len(body)} text lines (max {TEXT_LINES})")
@@ -79,14 +81,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("candidates", type=Path)
     parser.add_argument("--current", type=Path, default=ROOT / "build" / "translation_ko_v7_final.tsv")
+    parser.add_argument("--labels", type=Path, default=None,
+                        help="JSON {offset: speaker label} for rows whose label is being restored")
     parser.add_argument("--slots", type=Path, default=ROOT / "build" / "korean_slots_retranslated_v2.json")
     args = parser.parse_args()
     current = load_current(args.current)
     slots = {c: int(i) for c, i in json.loads(args.slots.read_text(encoding="utf-8"))["slots"].items()}
     rows = json.loads(args.candidates.read_text(encoding="utf-8"))
+    labels = json.loads(args.labels.read_text(encoding="utf-8")) if args.labels else {}
     bad = 0
     for offset, text in rows.items():
-        issues = problems(offset, text, current, slots)
+        issues = problems(offset, text, current, slots, labels.get(offset))
         if issues:
             bad += 1
             print(f"FAIL {offset}: " + " | ".join(issues))

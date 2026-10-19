@@ -79,7 +79,7 @@ def main() -> None:
     parser.add_argument("--boot", type=Path, default=exe_text.BOOT)
     parser.add_argument("--font-stream", type=Path,
                         default=ROOT / "build" / "stream1_ko_retranslated_v2_font.bin")
-    parser.add_argument("--layout-stream", type=Path, default=ROOT / "build" / "stream1_ko_v317.bin",
+    parser.add_argument("--layout-stream", type=Path, default=ROOT / "build" / "stream1_ko_v318.bin",
                         help="current built stream, to find codes the dialogue still uses")
     parser.add_argument("--slots", type=Path,
                         default=ROOT / "build" / "korean_slots_retranslated_v2.json")

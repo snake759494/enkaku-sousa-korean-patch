@@ -114,7 +114,14 @@ def main() -> None:
     parser.add_argument("--slots", type=Path, default=ROOT / "build" / "korean_slots_retranslated_v2.json")
     parser.add_argument("--out", type=Path, default=ROOT / "build" / "translation_ko_v9.tsv")
     parser.add_argument("--report", type=Path, default=ROOT / "build" / "box_fit_v9.json")
+    parser.add_argument("--all-speakers", action="store_true",
+                        help="refit 【코우지】 rows too (issue #5: he also speaks in the lower box)")
+    parser.add_argument("--labels", type=Path, default=None,
+                        help="JSON {offset: label} for rows that lost their speaker label; their "
+                             "condensed text must carry it")
     args = parser.parse_args()
+    upper_only = set() if args.all_speakers else UPPER_ONLY
+    relabel = json.loads(args.labels.read_text(encoding="utf-8")) if args.labels else {}
 
     slots = {c: int(i) for c, i in json.loads(args.slots.read_text(encoding="utf-8"))["slots"].items()}
     header, ko_rows = translation_text.parse_loose_tsv(args.ko)
@@ -130,14 +137,20 @@ def main() -> None:
             continue
         text = row[2]
         lines = text.split(BS)
-        if (not R.TAG.match(lines[0]) or lines[0] in UPPER_ONLY
-                or text.lstrip().startswith(("［", "[")) or len(lines) - 1 <= check_condensed.TEXT_LINES):
+        body = lines[1:]
+        while body and not body[-1].strip("　 "):
+            body.pop()                       # padding lines from an earlier refit
+        restoring = row[0] in relabel
+        if not restoring and (not R.TAG.match(lines[0]) or lines[0] in upper_only
+                              or text.lstrip().startswith(("［", "["))
+                              or len(body) <= check_condensed.TEXT_LINES):
             continue
         budget = encoded_len(text, slots)
-        new = mechanical(lines, slots, budget)
+        new = None if restoring else mechanical([lines[0]] + body, slots, budget)
         source = "mechanical"
         if new is None and row[0] in condensed:
-            issues = check_condensed.problems(row[0], condensed[row[0]], current, slots)
+            issues = check_condensed.problems(row[0], condensed[row[0]], current, slots,
+                                              relabel.get(row[0]))
             if issues:
                 rejected.append({"offset": row[0], "issues": issues})
             else:
